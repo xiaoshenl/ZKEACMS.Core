@@ -3,13 +3,12 @@
  * http://www.zkea.net/licenses */
 
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Net.Http;
-using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text.RegularExpressions;
 
 namespace Easy.Net.WebApi
 {
@@ -60,7 +59,7 @@ namespace Easy.Net.WebApi
             }
             var contentType = content.Headers.ContentType.ToString();
             contentType = contentType.ToLower();
-            IRequestSerializer serializer = GetSerializer(contentType);            
+            IRequestSerializer serializer = GetSerializer(contentType);
 
             bool isZip = content.Headers.ContentEncoding.Contains("gzip", StringComparer.OrdinalIgnoreCase);
 

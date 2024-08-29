@@ -5,7 +5,6 @@
 using Easy.Notification;
 using Easy.Notification.Queue;
 using System;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using ZKEACMS.PendingTask;

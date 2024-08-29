@@ -5,8 +5,8 @@
 using Easy.Mvc.Plugin;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation;
-using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 
 namespace ZKEACMS.WebHost
 {
@@ -17,7 +17,7 @@ namespace ZKEACMS.WebHost
             if (webHostEnvironment.IsDevelopment())
             {
                 optoins.FileProviders.Add(new DeveloperViewFileProvider(webHostEnvironment));
-            }            
+            }
         })
         {
         }

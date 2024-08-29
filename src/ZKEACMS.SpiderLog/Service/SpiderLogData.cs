@@ -3,11 +3,8 @@
  * http://www.zkea.net/licenses */
 
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.SpiderLog.Models;
 using ZKEACMS.Storage;
 
@@ -25,7 +22,7 @@ namespace ZKEACMS.SpiderLog.Service
             collection.EnsureIndex(m => m.Url);
             collection.EnsureIndex(m => m.Host);
             collection.EnsureIndex(m => m.VisitAt);
-            collection.Insert(visitLog);            
+            collection.Insert(visitLog);
         }
         public SearchEngineVisitLog GetLastVisit(string host, string name)
         {

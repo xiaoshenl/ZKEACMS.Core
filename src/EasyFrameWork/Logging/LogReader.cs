@@ -5,10 +5,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace Easy.Logging
 {
@@ -20,7 +18,7 @@ namespace Easy.Logging
 
         public Encoding Encoding { get; }
 
-        public LogReader(string logFile,Encoding encoding)
+        public LogReader(string logFile, Encoding encoding)
         {
             _fileStream = new FileStream(logFile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
             Encoding = encoding;

@@ -2,13 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy;
 using Easy.Extend;
-using Easy.Cache;
-using Microsoft.AspNetCore.Http;
-using System.Collections.Generic;
-using System.Collections;
 using System;
+using System.Collections.Generic;
 
 namespace ZKEACMS.Captcha
 {

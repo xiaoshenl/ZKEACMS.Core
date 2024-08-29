@@ -4,15 +4,10 @@
 
 
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ZKEACMS.Captcha
 {
-   public static class Builder
+    public static class Builder
     {
         public static void ConfigCaptcha(this IServiceCollection services)
         {

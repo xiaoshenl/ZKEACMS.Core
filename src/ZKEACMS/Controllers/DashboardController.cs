@@ -2,12 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using ZKEACMS.Common.ViewModels;
-using Easy.Mvc.Attribute;
 using Easy.Mvc.Authorize;
 using Microsoft.AspNetCore.Mvc;
+using ZKEACMS.Common.ViewModels;
 using ZKEACMS.Dashboard;
-using Microsoft.AspNetCore.Http;
 
 namespace ZKEACMS.Controllers
 {

@@ -3,9 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Mvc.Authorize;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using ZKEACMS.Common.Models;
 using ZKEACMS.Setting;
 

@@ -2,28 +2,22 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Constant;
+using Easy;
 using Easy.Extend;
-using Easy.Mvc;
 using Easy.Mvc.Authorize;
 using Easy.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using ZKEACMS.Product.Models;
-using ZKEACMS.Product.Service;
+using ZKEACMS.Extend;
 using ZKEACMS.Redirection.Models;
 using ZKEACMS.Redirection.Service;
-using ZKEACMS.Extend;
-using Easy;
 
 namespace ZKEACMS.Redirection.Controllers
 {
     public class UrlRedirectionController : BasicController<UrlRedirect, int, IUrlRedirectService>
     {
         private readonly ILocalize _localize;
-        public UrlRedirectionController(IUrlRedirectService service,ILocalize localize) : base(service)
+        public UrlRedirectionController(IUrlRedirectService service, ILocalize localize) : base(service)
         {
             _localize = localize;
         }

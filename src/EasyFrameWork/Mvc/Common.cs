@@ -11,7 +11,7 @@ namespace Easy.Mvc
     {
         static HashSet<string> _imageFiles = new HashSet<string>(StringComparer.OrdinalIgnoreCase) { ".gif", ".jpg", ".png", ".jpeg", ".bmp", ".svg", ".jpe", ".webp" };
         static HashSet<string> _dangerFiles = new HashSet<string>(StringComparer.OrdinalIgnoreCase) { ".aspx", ".asp", ".exe", ".php", ".jsp", ".htm", ".html", ".xhtml", ".cs", ".bat", ".jar", ".dll", ".com" };
-        
+
         /// <summary>
         /// 判断文件是否能上传
         /// </summary>

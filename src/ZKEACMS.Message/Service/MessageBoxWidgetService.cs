@@ -5,8 +5,6 @@
 using Easy;
 using Easy.Constant;
 using Easy.RepositoryPattern;
-using Microsoft.AspNetCore.Mvc;
-using System.Linq;
 using ZKEACMS.Message.Models;
 using ZKEACMS.Message.ViewModel;
 using ZKEACMS.Widget;

@@ -4,11 +4,9 @@
 
 using Easy;
 using Microsoft.Data.Sqlite;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.ObjectPool;
 using System;
 using System.Data.Common;
-using System.Data.SqlClient;
 using ZKEACMS.Options;
 
 namespace ZKEACMS.DbConnectionPool

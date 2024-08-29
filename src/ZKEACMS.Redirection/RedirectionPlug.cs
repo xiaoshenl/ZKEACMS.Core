@@ -3,7 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Easy;
-using Easy.Extend;
 using Easy.Mvc.Resource;
 using Easy.Mvc.Route;
 using Easy.RepositoryPattern;

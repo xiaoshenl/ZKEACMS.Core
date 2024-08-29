@@ -2,9 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Microsoft.AspNetCore.Routing;
 
 namespace ZKEACMS.Route
@@ -25,7 +22,7 @@ namespace ZKEACMS.Route
                 if (page >= 0)
                 {
                     values.SetPage(page);
-                }                
+                }
             }
             return path;
         }

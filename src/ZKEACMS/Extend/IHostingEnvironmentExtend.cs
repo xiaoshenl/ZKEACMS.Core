@@ -2,13 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Microsoft.AspNetCore.Hosting;
-using System.IO;
-using System;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Hosting.Internal;
-using System.Linq;
 using Easy.Extend;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using System.IO;
+using System.Linq;
 
 namespace ZKEACMS
 {

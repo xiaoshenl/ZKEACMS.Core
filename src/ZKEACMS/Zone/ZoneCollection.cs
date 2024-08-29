@@ -8,6 +8,6 @@ namespace ZKEACMS.Zone
 {
     public class ZoneCollection : Collection<ZoneEntity>
     {
-        
+
     }
 }

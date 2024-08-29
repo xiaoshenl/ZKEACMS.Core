@@ -8,7 +8,7 @@ namespace ZKEACMS.StyleEditor
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

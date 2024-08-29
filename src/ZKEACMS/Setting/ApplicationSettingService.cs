@@ -2,15 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Concurrent;
-using System.Linq;
 using Easy;
 using Easy.Cache;
 using Easy.Constant;
 using Easy.Extend;
 using Easy.RepositoryPattern;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using ZKEACMS.DataArchived;
 
 namespace ZKEACMS.Setting

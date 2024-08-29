@@ -2,19 +2,12 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Extend;
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
-using System.Text.Encodings.Web;
 using Microsoft.Extensions.DependencyInjection;
-using Easy.Modules.MutiLanguage;
-using Easy.Options;
-using Microsoft.Extensions.Options;
-using Easy.Extend;
-using System.Linq;
+using System.IO;
+using System.Text.Encodings.Web;
 
 namespace Easy.Mvc.RazorPages
 {

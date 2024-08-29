@@ -5,13 +5,10 @@
 using Easy.Constant;
 using Easy.MetaData;
 using Easy.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ZKEACMS.Rule
 {
-    public class RuleItem: EditorEntity
+    public class RuleItem : EditorEntity
     {
         public string Condition { get; set; }
         public string FunctionName { get; set; }

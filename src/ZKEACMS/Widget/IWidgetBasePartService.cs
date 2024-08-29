@@ -2,14 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Collections.Generic;
-using System.IO;
 using Easy.RepositoryPattern;
-using ZKEACMS.Page;
-using Microsoft.AspNetCore.Http;
-using System;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using ZKEACMS.Event;
+using ZKEACMS.Page;
 
 namespace ZKEACMS.Widget
 {
@@ -23,7 +20,7 @@ namespace ZKEACMS.Widget
         WidgetViewModelPart ApplyTemplate(Layout.LayoutEntity pageLayout, WidgetBase widget, ActionContext actionContext);
         void RemoveCache(string pageId);
         void ClearCache();
-        IEnumerable<TWidget> GetAllWidgets<TWidgetService, TWidget>() 
+        IEnumerable<TWidget> GetAllWidgets<TWidgetService, TWidget>()
             where TWidgetService : SimpleWidgetService<TWidget>
             where TWidget : SimpleWidgetBase, new();
 

@@ -2,16 +2,14 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
+using Easy.Constant;
+using Easy.Extend;
 using Easy.RepositoryPattern;
 using System;
-using System.Collections.Generic;
-using ZKEACMS.Article.Models;
-using Easy;
-using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using Easy.Extend;
+using ZKEACMS.Article.Models;
 using ZKEACMS.Event;
-using Easy.Constant;
 
 namespace ZKEACMS.Article.Service
 {
@@ -19,10 +17,10 @@ namespace ZKEACMS.Article.Service
     {
         private readonly ILocalize _localize;
         private readonly IEventManager _eventManager;
-        public ArticleService(IApplicationContext applicationContext, 
-            ILocalize localize, 
+        public ArticleService(IApplicationContext applicationContext,
+            ILocalize localize,
             CMSDbContext dbContext,
-            IEventManager eventManager) 
+            IEventManager eventManager)
             : base(applicationContext, dbContext)
         {
             _localize = localize;
@@ -115,7 +113,7 @@ namespace ZKEACMS.Article.Service
             if (article.PublishDate == null)
             {
                 article.PublishDate = DateTime.Now;
-            }            
+            }
             if (article.ID > 0)
             {
                 Update(article);

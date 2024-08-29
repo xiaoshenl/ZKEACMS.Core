@@ -7,7 +7,7 @@ namespace ZKEACMS.Widget
 {
     public class DesignWidgetViewModel : WidgetViewModelPart
     {
-        public DesignWidgetViewModel(WidgetViewModelPart widgetPart, string pageId) 
+        public DesignWidgetViewModel(WidgetViewModelPart widgetPart, string pageId)
             : base(widgetPart.Widget, widgetPart.ViewModel)
         {
             PageId = pageId;

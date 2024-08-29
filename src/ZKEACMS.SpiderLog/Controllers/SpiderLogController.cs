@@ -5,11 +5,6 @@
 using Easy.Mvc.Authorize;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.SpiderLog.Service;
 
 namespace ZKEACMS.SpiderLog.Controllers

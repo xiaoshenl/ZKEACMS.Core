@@ -10,6 +10,7 @@ using Easy.Mvc.Controllers;
 using Easy.Mvc.ValueProvider;
 using Easy.ViewPort.jsTree;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 using System.Net;
@@ -17,12 +18,9 @@ using ZKEACMS.Common.ViewModels;
 using ZKEACMS.Filter;
 using ZKEACMS.Layout;
 using ZKEACMS.Page;
+using ZKEACMS.Rule;
 using ZKEACMS.Setting;
 using ZKEACMS.Widget;
-using ZKEACMS.Rule;
-using Microsoft.Extensions.DependencyInjection;
-using ZKEACMS.Event;
-using Easy;
 
 namespace ZKEACMS.Controllers
 {

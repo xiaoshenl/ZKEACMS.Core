@@ -8,12 +8,12 @@ using Easy.Mvc;
 using Easy.Mvc.Authorize;
 using Easy.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Linq;
 using ZKEACMS.Product.ActionFilter;
 using ZKEACMS.Product.Models;
 using ZKEACMS.Product.Service;
-using Microsoft.Extensions.DependencyInjection;
 using ZKEACMS.Product.ViewModel;
 
 namespace ZKEACMS.Product.Controllers

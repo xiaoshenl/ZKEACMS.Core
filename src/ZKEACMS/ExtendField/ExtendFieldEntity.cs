@@ -2,12 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
 using Easy.MetaData;
 using Easy.Models;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 using Easy.RepositoryPattern;
+using System.ComponentModel.DataAnnotations;
 
 namespace ZKEACMS.ExtendField
 {

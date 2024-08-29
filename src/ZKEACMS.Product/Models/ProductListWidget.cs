@@ -2,21 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.IO;
-using Easy.Extend;
-using Easy.MetaData;
-using ZKEACMS.Widget;
-using ZKEACMS.MetaData;
-using Easy;
-using Microsoft.Extensions.DependencyInjection;
-using ZKEACMS.Product.Service;
-using System.ComponentModel.DataAnnotations.Schema;
 using Easy.Constant;
-using System.Linq;
-using ZKEACMS.Extend;
 using Easy.RepositoryPattern;
+using ZKEACMS.Extend;
+using ZKEACMS.MetaData;
+using ZKEACMS.Widget;
 
 namespace ZKEACMS.Product.Models
 {

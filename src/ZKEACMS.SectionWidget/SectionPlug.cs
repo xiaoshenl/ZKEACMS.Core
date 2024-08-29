@@ -2,21 +2,17 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
 using Easy.Mvc.Resource;
 using Easy.Mvc.Route;
+using Easy.RepositoryPattern;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
-using ZKEACMS;
-using ZKEACMS.Common.Models;
-using Microsoft.Extensions.DependencyInjection;
-using ZKEACMS.SectionWidget.Service;
-using Microsoft.AspNetCore.Mvc.ApplicationParts;
-using System.Reflection;
-using ZKEACMS.SectionWidget.Models;
-using Easy;
-using ZKEACMS.WidgetTemplate;
-using Easy.RepositoryPattern;
 using ZKEACMS.SectionWidget.EventHandler;
+using ZKEACMS.SectionWidget.Models;
+using ZKEACMS.SectionWidget.Service;
+using ZKEACMS.WidgetTemplate;
 
 namespace ZKEACMS.SectionWidget
 {
@@ -70,7 +66,7 @@ namespace ZKEACMS.SectionWidget
                 GroupName = "1.General",
                 PartialView = "Widget.Section",
                 Thumbnail = "~/images/Widget.Section.png",
-                FormView= "SectionWidgetForm",
+                FormView = "SectionWidgetForm",
                 Order = 100
             };
         }

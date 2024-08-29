@@ -6,20 +6,15 @@
 using Easy;
 using Easy.Mvc.DataAnnotations;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.ModelBinder;
 using ZKEACMS.Theme;
 
 namespace ZKEACMS
 {
-  public static  class BuilderMVC
+    public static class BuilderMVC
     {
         public static IMvcBuilder ConfigMVC(this IServiceCollection services)
         {

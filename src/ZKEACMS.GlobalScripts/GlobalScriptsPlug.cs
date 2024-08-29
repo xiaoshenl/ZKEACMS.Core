@@ -2,17 +2,15 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
 using Easy.Mvc.Resource;
 using Easy.Mvc.Route;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using Easy.RepositoryPattern;
-using Easy;
-using ZKEACMS.WidgetTemplate;
-using ZKEACMS.GlobalScripts.Service;
 using ZKEACMS.Event;
+using ZKEACMS.GlobalScripts.Service;
+using ZKEACMS.WidgetTemplate;
 
 namespace ZKEACMS.GlobalScripts
 {

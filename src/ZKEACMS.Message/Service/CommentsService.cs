@@ -3,13 +3,9 @@
  * http://www.zkea.net/licenses */
 
 using Easy;
-using Easy.Extend;
-using Easy.Notification;
 using Easy.RepositoryPattern;
-using System;
 using ZKEACMS.Event;
 using ZKEACMS.Message.Models;
-using ZKEACMS.Setting;
 
 namespace ZKEACMS.Message.Service
 {

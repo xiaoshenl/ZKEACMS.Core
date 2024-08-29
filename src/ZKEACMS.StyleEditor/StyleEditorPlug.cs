@@ -2,10 +2,8 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy;
 using Easy.Mvc.Resource;
 using Easy.Mvc.Route;
-using Easy.RepositoryPattern;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

@@ -5,7 +5,6 @@
 using Easy.MetaData;
 using Easy.Models;
 using Easy.RepositoryPattern;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using ZKEACMS.Extend;

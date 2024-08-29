@@ -2,16 +2,10 @@
  * Copyright 2018 ZKEASOFT 
  * http://www.zkea.net/licenses */
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using System.IO;
-using System.Net.Http;
-using YamlDotNet.Serialization.NamingConventions;
-using YamlDotNet.Serialization;
-using ZKEACMS.EventAction.HttpParser;
-using ZKEACMS.EventAction.ActionExecutor;
 using Easy.Serializer;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ZKEACMS.EventAction.ActionExecutor;
+using ZKEACMS.EventAction.HttpParser;
 
 namespace ZKEACMS.Test
 {

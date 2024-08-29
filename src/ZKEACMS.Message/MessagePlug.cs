@@ -119,7 +119,7 @@ namespace ZKEACMS.Message
                 option.DataSourceLinkTitle = "Comments";
                 option.DataSourceLink = "~/admin/comments";
             });
-            
+
         }
 
         protected override void InitScript(Func<string, ResourceHelper> script)

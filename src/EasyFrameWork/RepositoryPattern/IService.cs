@@ -3,11 +3,9 @@
  * http://www.zkea.net/licenses */
 
 using System;
-using System.Linq.Expressions;
 using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace Easy.RepositoryPattern

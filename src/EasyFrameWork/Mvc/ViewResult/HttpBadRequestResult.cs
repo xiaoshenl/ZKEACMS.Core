@@ -3,10 +3,7 @@
  * http://www.zkea.net/licenses */
 
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
 
 namespace Easy.Mvc.ViewResult
 {

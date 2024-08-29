@@ -2,15 +2,15 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Constant;
+using Easy.Extend;
+using Easy.Models;
+using Easy.ViewPort;
+using Easy.ViewPort.Descriptor;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Easy.ViewPort;
-using Easy.ViewPort.Descriptor;
-using Easy.Constant;
-using Easy.Models;
 using System.Reflection;
-using Easy.Extend;
 
 namespace Easy.MetaData
 {
@@ -27,7 +27,7 @@ namespace Easy.MetaData
             TargetType = typeof(T);
             foreach (var item in TargetType.GetProperties())
             {
-                Type propertyType= Nullable.GetUnderlyingType(item.PropertyType) ?? item.PropertyType;                
+                Type propertyType = Nullable.GetUnderlyingType(item.PropertyType) ?? item.PropertyType;
                 TypeCode code = Type.GetTypeCode(propertyType);
                 switch (code)
                 {
@@ -42,7 +42,7 @@ namespace Easy.MetaData
                     case TypeCode.DateTime:
                         ViewConfig(item.Name).AsTextBox().FormatAsDate();
                         break;
-                        
+
                     case TypeCode.Byte:
                     case TypeCode.UInt16:
                     case TypeCode.UInt32:
@@ -62,12 +62,12 @@ namespace Easy.MetaData
                     case TypeCode.Decimal:
                         ViewConfig(item.Name).AsTextBox().RegularExpression(RegularExpression.Float);
                         break;
-                        
+
                     case TypeCode.Empty:
                     case TypeCode.String:
                         ViewConfig(item.Name).AsTextBox().MaxLength(200);
                         break;
-                        
+
                     case TypeCode.Object:
                     default:
                         ViewConfig(item.Name).AsObject();
@@ -119,21 +119,21 @@ namespace Easy.MetaData
             }
         }
 
-        
+
         protected abstract void ViewConfigure();
-      
-      
+
+
         protected TagsHelper ViewConfig(Expression<Func<T, object>> expression)
         {
             string key = Reflection.LinqExpression.GetPropertyName(expression.Body);
             return ViewConfig(key);
         }
-       
+
         protected TagsHelper ViewConfig(string properyt)
         {
             return new TagsHelper(properyt, ViewPortDescriptors, TargetType, TargetType.GetProperty(properyt));
-        }      
-       
+        }
+
     }
 
 }

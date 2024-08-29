@@ -2,14 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Collections.Generic;
+using Easy;
 using Easy.Extend;
 using Easy.RepositoryPattern;
-using ZKEACMS.Product.Models;
-using Easy;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Linq;
+using ZKEACMS.Product.Models;
 
 namespace ZKEACMS.Product.Service
 {
@@ -18,9 +15,9 @@ namespace ZKEACMS.Product.Service
         private readonly IProductService _productService;
         private readonly IProductCategoryTagService _productCategoryTagService;
         private readonly ILocalize _localize;
-        public ProductCategoryService(IProductService productService, 
+        public ProductCategoryService(IProductService productService,
             IApplicationContext applicationContext,
-            IProductCategoryTagService productCategoryTagService, 
+            IProductCategoryTagService productCategoryTagService,
             ILocalize localize,
             CMSDbContext dbContext)
             : base(applicationContext, dbContext)

@@ -2,15 +2,8 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Modules.Role;
-using Easy.Modules.User.Service;
 using Microsoft.AspNetCore.Authorization;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
-using Easy.Extend;
 
 namespace Easy.Mvc.Authorize
 {

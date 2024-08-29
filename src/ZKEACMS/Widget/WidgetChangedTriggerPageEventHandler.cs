@@ -4,9 +4,7 @@
 
 using Easy.Cache;
 using Easy.Extend;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using ZKEACMS.Event;
 using ZKEACMS.Page;
 

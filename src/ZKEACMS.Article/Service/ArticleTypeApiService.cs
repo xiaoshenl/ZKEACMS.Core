@@ -3,11 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.Article.Models;
 
 namespace ZKEACMS.Article.Service
@@ -23,7 +18,7 @@ namespace ZKEACMS.Article.Service
 
         public ServiceResult<ArticleType> Create(ArticleType articleType)
         {
-            var validResult= ValidParentId(articleType);
+            var validResult = ValidParentId(articleType);
             if (validResult.HasViolation) return validResult;
 
             return _articleTypeService.Add(articleType);

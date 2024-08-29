@@ -2,22 +2,22 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
 using Easy.Constant;
 using Easy.Extend;
 using Easy.Modules.User.Models;
 using Easy.Modules.User.Service;
 using Easy.Mvc.Authorize;
+using Easy.Mvc.Extend;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.DataProtection;
 using ZKEACMS.Account;
-using Microsoft.Extensions.Logging;
-using Easy.Mvc.Extend;
 using ZKEACMS.Common.ViewModels;
-using Easy;
 using ZKEACMS.Event;
 
 namespace ZKEACMS.Controllers

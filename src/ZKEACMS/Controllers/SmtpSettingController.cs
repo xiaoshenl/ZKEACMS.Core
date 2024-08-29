@@ -4,12 +4,7 @@
 
 using Easy.Mvc.Authorize;
 using Easy.Notification;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using ZKEACMS.Setting;
-using ZKEACMS.SMTP;
 
 namespace ZKEACMS.Controllers
 {

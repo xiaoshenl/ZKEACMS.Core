@@ -2,17 +2,14 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
+using Easy.Cache;
 using Easy.RepositoryPattern;
-using System.Collections;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using System.Collections.Generic;
 using System.Linq;
-using Easy;
-using Microsoft.EntityFrameworkCore;
-using System;
 using ZKEACMS.Page;
-using Easy.Cache;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace ZKEACMS.Layout
 {
@@ -21,10 +18,10 @@ namespace ZKEACMS.Layout
         private readonly ICacheManager<LayoutHtmlService> _cacheManager;
         private readonly ISignals _signals;
         private const string LayoutHtmlChanged = "LayoutHtmlChanged";
-        public LayoutHtmlService(IApplicationContext applicationContext, 
-            ICacheManager<LayoutHtmlService> cacheManager, 
-            CMSDbContext dbContext, 
-            ISignals signals) 
+        public LayoutHtmlService(IApplicationContext applicationContext,
+            ICacheManager<LayoutHtmlService> cacheManager,
+            CMSDbContext dbContext,
+            ISignals signals)
             : base(applicationContext, dbContext)
         {
             _cacheManager = cacheManager;

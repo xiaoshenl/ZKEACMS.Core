@@ -2,8 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Extend;
-
 namespace Easy.ViewPort.Validator
 {
     public class StringLengthValidator : ValidatorBase

@@ -2,18 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.RepositoryPattern;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Easy;
 using ZKEACMS.SpiderLog.Models;
-using System.Collections.Concurrent;
-using System.IO;
-using System.Text;
-using Easy.Extend;
 
 namespace ZKEACMS.SpiderLog.Service
 {

@@ -3,11 +3,7 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Cache;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
 using ZKEACMS.Event;
-using ZKEACMS.Widget;
 
 namespace ZKEACMS.Page
 {
@@ -26,7 +22,7 @@ namespace ZKEACMS.Page
             if (page != null && e.Data != null)
             {
                 _signals.Trigger(CacheSignals.PageUrlChanged);
-                _signals.Trigger(CacheSignals.PageWidgetChanged);                
+                _signals.Trigger(CacheSignals.PageWidgetChanged);
                 _signals.Trigger(CacheSignals.PageZoneChanged);
             }
         }

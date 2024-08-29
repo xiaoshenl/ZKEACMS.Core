@@ -8,7 +8,7 @@ namespace ZKEACMS.Redirection
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

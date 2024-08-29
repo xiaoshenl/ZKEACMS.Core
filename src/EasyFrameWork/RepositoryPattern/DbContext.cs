@@ -3,9 +3,7 @@
  * http://www.zkea.net/licenses */
 
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Easy.RepositoryPattern
 {

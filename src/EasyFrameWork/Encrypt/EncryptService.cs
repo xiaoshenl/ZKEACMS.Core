@@ -2,13 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Microsoft.AspNetCore.Hosting;
 using System;
 using System.IO;
-using System.Reflection;
 using System.Security.Cryptography;
-using Easy.Mvc;
-using Easy.Mvc.Extend;
-using Microsoft.AspNetCore.Hosting;
 
 namespace Easy.Encrypt
 {
@@ -32,7 +29,7 @@ namespace Easy.Encrypt
             {
 
                 using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider())
-                {                    
+                {
                     if (!Directory.Exists(_folder))
                     {
                         Directory.CreateDirectory(_folder);

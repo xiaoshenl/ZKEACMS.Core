@@ -3,9 +3,7 @@
  * http://www.zkea.net/licenses */
 
 using IdGen;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Easy
 {

@@ -2,20 +2,18 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Collections.Generic;
 using Easy;
 using Easy.RepositoryPattern;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using ZKEACMS.Common.Models;
 using ZKEACMS.ExtendField;
 using ZKEACMS.Layout;
 using ZKEACMS.Media;
 using ZKEACMS.Page;
-using ZKEACMS.PendingTask;
 using ZKEACMS.Setting;
 using ZKEACMS.Theme;
 using ZKEACMS.Widget;
-using ZKEACMS.WidgetTemplate;
 using ZKEACMS.Zone;
 
 namespace ZKEACMS

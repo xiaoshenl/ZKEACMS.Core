@@ -2,23 +2,20 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.LINQ;
-using Easy.Mvc.Attribute;
-using Easy.Mvc.Authorize;
-using Easy.Mvc.Controllers;
-using Microsoft.AspNetCore.Mvc;
-using ZKEACMS.Setting;
-using System.Linq;
-using Easy.RepositoryPattern;
-using Easy.Modules.MutiLanguage;
 using Easy;
-using Easy.Options;
-using Microsoft.Extensions.Options;
-using System.Collections.Generic;
-using System;
-using System.Text;
 using Easy.Constant;
 using Easy.Extend;
+using Easy.Modules.MutiLanguage;
+using Easy.Mvc.Authorize;
+using Easy.Mvc.Controllers;
+using Easy.Options;
+using Easy.RepositoryPattern;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace ZKEACMS.Controllers
 {

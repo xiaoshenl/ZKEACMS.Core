@@ -1,17 +1,16 @@
 /* http://www.zkea.net/ 
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
-using System;
-using System.Collections.Generic;
 using Easy.Constant;
+using Easy.LINQ;
 using Easy.MetaData;
 using Easy.Models;
-using ZKEACMS.ExtendField;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using Easy.LINQ;
-using ZKEACMS.Extend;
 using Easy.RepositoryPattern;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using ZKEACMS.Extend;
 
 namespace ZKEACMS.Product.Models
 {

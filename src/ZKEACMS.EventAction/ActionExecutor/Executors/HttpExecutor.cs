@@ -4,7 +4,6 @@
 
 using Easy.Extend;
 using Easy.RepositoryPattern;
-using System.Collections.Generic;
 using ZKEACMS.Event;
 using ZKEACMS.EventAction.HttpParser;
 using ZKEACMS.EventAction.Service;

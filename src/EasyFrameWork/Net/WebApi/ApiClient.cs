@@ -39,10 +39,10 @@ namespace Easy.Net.WebApi
         }
         public void UseGzip()
         {
-            if(_injectors.All(m=>!(m is GzipInjector)))
+            if (_injectors.All(m => !(m is GzipInjector)))
             {
                 AddInjector(new GzipInjector());
-            }            
+            }
         }
         public void AddInjector(IRequestInjector injector)
         {

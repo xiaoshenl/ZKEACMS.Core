@@ -3,9 +3,7 @@
  * http://www.zkea.net/licenses */
 
 using Easy.RuleEngine.Scripting.Ast;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Easy.RuleEngine.Scripting
 {

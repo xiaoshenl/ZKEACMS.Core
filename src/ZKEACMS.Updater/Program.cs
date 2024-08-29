@@ -8,7 +8,7 @@ namespace ZKEACMS.Updater
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

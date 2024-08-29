@@ -4,7 +4,6 @@
 
 using Easy.Models;
 using Microsoft.AspNetCore.Hosting;
-using System;
 
 namespace Easy
 {

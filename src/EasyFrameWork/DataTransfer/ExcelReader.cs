@@ -2,17 +2,16 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.IO;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
-using System.Linq;
 using Easy.MetaData;
-using System.Reflection;
-using Easy.ViewPort.Descriptor;
 using Easy.Reflection;
+using Easy.ViewPort.Descriptor;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
 
 namespace Easy.DataTransfer
 {

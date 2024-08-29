@@ -3,17 +3,9 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Extend;
-using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
-using System.Threading.Tasks;
-using ZKEACMS.Article.Models;
-using ZKEACMS.Article.Service;
-using ZKEACMS.Page;
-using ZKEACMS.Product.Service;
 
 namespace ZKEACMS.Sitemap.Service
 {

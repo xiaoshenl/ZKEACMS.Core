@@ -2,21 +2,19 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
+using Easy.Mvc.Resource;
+using Easy.Mvc.Route;
+using Easy.RepositoryPattern;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
-using Easy.Mvc.Resource;
-using Microsoft.Extensions.DependencyInjection;
-using Easy.Mvc.Route;
-using ZKEACMS.Common.Models;
+using ZKEACMS.Product.EventHandler;
 using ZKEACMS.Product.Models;
 using ZKEACMS.Product.Service;
-using Easy;
-using ZKEACMS.WidgetTemplate;
-using Easy.RepositoryPattern;
 using ZKEACMS.Route;
-using System.Collections.Concurrent;
-using ZKEACMS.Product.EventHandler;
 using ZKEACMS.Sitemap.Service;
+using ZKEACMS.WidgetTemplate;
 
 namespace ZKEACMS.Product
 {

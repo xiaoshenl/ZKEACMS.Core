@@ -1,14 +1,14 @@
 /* http://www.zkea.net/ Copyright 2016 ZKEASOFT http://www.zkea.net/licenses */
-using System;
-using System.Collections.Generic;
+using Easy.Constant;
 using Easy.MetaData;
 using Easy.Models;
-using Easy.Constant;
 using Easy.Modules.Role;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Security.Principal;
 using Easy.RepositoryPattern;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Security.Principal;
 
 namespace Easy.Modules.User.Models
 {
@@ -42,12 +42,12 @@ namespace Easy.Modules.User.Models
 
         public string ApiLoginToken { get; set; }
 
-        [NotMapped]        
+        [NotMapped]
         public virtual List<UserRoleRelation> Roles { get; set; }
         [NotMapped]
         public override string Title
         {
-            get;set;
+            get; set;
         }
         [NotMapped]
         public string AuthenticationType { get; set; }

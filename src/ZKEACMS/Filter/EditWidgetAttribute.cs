@@ -2,12 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using ZKEACMS.Page;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Http;
-using System;
 using Microsoft.Net.Http.Headers;
+using ZKEACMS.Page;
 using ZKEACMS.Theme;
 
 namespace ZKEACMS.Filter

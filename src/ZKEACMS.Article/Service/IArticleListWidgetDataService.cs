@@ -3,9 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using ZKEACMS.Article.Models;
 
 namespace ZKEACMS.Article.Service

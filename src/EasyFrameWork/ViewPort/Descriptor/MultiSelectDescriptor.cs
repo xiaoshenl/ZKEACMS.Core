@@ -3,14 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using System;
-using Easy.ViewPort.Validator;
-using System.Collections.Generic;
-using Easy.Constant;
-using System.Text;
-using Easy.Modules.DataDictionary;
-using Easy.Extend;
-using System.Linq;
-using System.Reflection;
 
 namespace Easy.ViewPort.Descriptor
 {

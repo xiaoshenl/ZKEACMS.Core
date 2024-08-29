@@ -6,8 +6,6 @@ using Easy.Mvc.RazorPages;
 using Easy.Notification.Queue;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Easy.Notification
 {

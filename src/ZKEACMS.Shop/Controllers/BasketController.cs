@@ -2,6 +2,7 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Extend;
 using Easy.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -9,7 +10,6 @@ using ZKEACMS.Shop.Filter;
 using ZKEACMS.Shop.Models;
 using ZKEACMS.Shop.Service;
 using ZKEACMS.Shop.ViewModel;
-using Easy.Extend;
 
 namespace ZKEACMS.Shop.Controllers
 {

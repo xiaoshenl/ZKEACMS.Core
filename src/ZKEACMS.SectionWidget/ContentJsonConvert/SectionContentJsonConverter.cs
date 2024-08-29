@@ -2,9 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Newtonsoft.Json.Linq;
 using System;
 using ZKEACMS.SectionWidget.Models;
-using Newtonsoft.Json.Linq;
 
 namespace ZKEACMS.SectionWidget.ContentJsonConvert
 {

@@ -8,7 +8,7 @@ namespace ZKEACMS.SiteSearch
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

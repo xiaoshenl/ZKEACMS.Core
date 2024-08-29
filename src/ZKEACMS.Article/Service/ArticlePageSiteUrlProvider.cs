@@ -2,15 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Microsoft.AspNetCore.Http;
+using Easy;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ZKEACMS.Article.Service;
 using ZKEACMS.Sitemap.Models;
-using Easy.Extend;
-using Easy;
 using ZKEACMS.Sitemap.Service;
 
 namespace ZKEACMS.Article.Service

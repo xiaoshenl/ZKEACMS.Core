@@ -2,12 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy;
-using Easy.Mvc.Attribute;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using ZKEACMS.Article.Service;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 
@@ -27,7 +24,7 @@ namespace ZKEACMS.Currency
             {
                 item.Title = item.Title + " - " + item.Code;
             }
-            
+
             (filterContext.Controller as Controller)
                 .ViewData[ViewDataKeys.Currency] = new SelectList(currencies, "ID", "Title");
         }

@@ -2,14 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
+using Easy.RepositoryPattern;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using ZKEACMS.SectionWidget.Models;
-using Easy.RepositoryPattern;
-using Easy;
-using Microsoft.EntityFrameworkCore;
-using System;
-using Easy.Extend;
 
 namespace ZKEACMS.SectionWidget.Service
 {

@@ -2,10 +2,8 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
 using Easy;
 using Easy.RepositoryPattern;
-using Microsoft.EntityFrameworkCore;
 
 namespace ZKEACMS.ExtendField
 {

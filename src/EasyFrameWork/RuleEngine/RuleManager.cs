@@ -2,10 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.RuleEngine.Scripting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Easy.RuleEngine.Scripting;
 
 namespace Easy.RuleEngine
 {

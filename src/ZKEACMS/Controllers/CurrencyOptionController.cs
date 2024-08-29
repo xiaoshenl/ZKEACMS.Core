@@ -4,11 +4,6 @@
 
 using Easy.Mvc.Authorize;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.Currency;
 using ZKEACMS.Setting;
 
@@ -18,7 +13,7 @@ namespace ZKEACMS.Controllers
     public class CurrencyOptionController : SettingController<CurrencyOption>
     {
         private readonly CMSApplicationContext _applicationContext;
-        public CurrencyOptionController(IApplicationSettingService applicationSettingService,IApplicationContextAccessor applicationContextAccessor) : base(applicationSettingService)
+        public CurrencyOptionController(IApplicationSettingService applicationSettingService, IApplicationContextAccessor applicationContextAccessor) : base(applicationSettingService)
         {
             _applicationContext = applicationContextAccessor.Current;
         }

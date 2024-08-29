@@ -2,30 +2,26 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
+using Easy.Constant;
 using Easy.Extend;
 using Easy.Image;
-using Easy.RepositoryPattern;
-using System;
-using System.IO;
-using System.Linq.Expressions;
-using Easy;
-using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
-using Easy.Storage;
-using System.Threading.Tasks;
-using Easy.Constant;
 using Easy.Net;
-using System.Security.Cryptography;
-using System.Text;
+using Easy.RepositoryPattern;
+using Easy.Storage;
+using Microsoft.EntityFrameworkCore;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
-using ZKEACMS.Setting;
-using DocumentFormat.OpenXml.Drawing.Charts;
-using System.IO.Pipes;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
-using System.Runtime.InteropServices;
-using Easy.Mvc;
+using System.Threading.Tasks;
+using ZKEACMS.Setting;
 
 namespace ZKEACMS.Media
 {

@@ -2,22 +2,19 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
 using Easy;
+using Easy.Cache;
+using Easy.Constant;
+using Easy.Extend;
+using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using ZKEACMS.Product.Models;
 using ZKEACMS.Widget;
-using Microsoft.AspNetCore.Mvc;
-using System.Linq;
-using Easy.Extend;
-using System.Collections.Concurrent;
-using Easy.Constant;
-using Microsoft.AspNetCore.Html;
-using System.Collections.Generic;
-using ZKEACMS.StructuredData;
-using Easy.Cache;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace ZKEACMS.Product.Service
 {

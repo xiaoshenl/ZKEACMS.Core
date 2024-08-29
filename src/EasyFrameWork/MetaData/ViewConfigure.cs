@@ -41,6 +41,6 @@ namespace Easy.MetaData
         {
             string property = Reflection.LinqExpression.GetPropertyName(expression.Body);
             return GetViewPortDescriptor(property);
-        }        
+        }
     }
 }

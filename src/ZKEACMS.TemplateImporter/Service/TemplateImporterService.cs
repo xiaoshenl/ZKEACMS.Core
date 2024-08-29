@@ -2,26 +2,21 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.RepositoryPattern;
+using Easy.Extend;
+using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using ZKEACMS.TemplateImporter.Models;
-using Easy;
-using ZKEACMS.Theme;
 using System.IO;
 using System.IO.Compression;
-using Microsoft.AspNetCore.Hosting;
-using ZKEACMS.Layout;
-using ZKEACMS.Zone;
-using ZKEACMS.Page;
-using Easy.Extend;
+using System.Linq;
 using System.Text;
-using ZKEACMS.Widget;
-using ZKEACMS.Common.Models;
 using System.Text.RegularExpressions;
+using ZKEACMS.Layout;
+using ZKEACMS.Page;
+using ZKEACMS.TemplateImporter.Models;
+using ZKEACMS.Theme;
+using ZKEACMS.Widget;
+using ZKEACMS.Zone;
 
 namespace ZKEACMS.TemplateImporter.Service
 {

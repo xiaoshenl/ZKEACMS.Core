@@ -5,7 +5,6 @@
 using Easy.Extend;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Razor;
-using Microsoft.CodeAnalysis;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using System.IO;

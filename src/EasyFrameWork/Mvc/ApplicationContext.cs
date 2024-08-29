@@ -2,19 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
 using Easy.Models;
-using Easy.Modules.User.Service;
+using Easy.Mvc.StateProviders;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Easy.Extend;
-using Microsoft.AspNetCore.Authentication;
-using Easy.Mvc.Authorize;
+using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using Easy.Mvc.StateProviders;
-using System.Linq;
 
 namespace Easy.Mvc
 {

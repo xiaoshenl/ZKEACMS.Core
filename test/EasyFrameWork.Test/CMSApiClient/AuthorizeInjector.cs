@@ -1,9 +1,4 @@
 ﻿using Easy.Net.WebApi;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EasyFrameWork.Test.CMSApiClient
 {
@@ -18,7 +13,7 @@ namespace EasyFrameWork.Test.CMSApiClient
 
         public void Inject(HttpRequest request)
         {
-            if(request is IAuthorizeRequired)
+            if (request is IAuthorizeRequired)
             {
                 if (_jwtToken == null || _jwtToken.IsExpired)
                 {

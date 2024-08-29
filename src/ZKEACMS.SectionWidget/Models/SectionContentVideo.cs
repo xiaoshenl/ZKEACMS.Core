@@ -2,11 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
 using Easy.MetaData;
+using Easy.RepositoryPattern;
 using System.ComponentModel.DataAnnotations.Schema;
 using ZKEACMS.Extend;
-using Easy.RepositoryPattern;
 
 namespace ZKEACMS.SectionWidget.Models
 {

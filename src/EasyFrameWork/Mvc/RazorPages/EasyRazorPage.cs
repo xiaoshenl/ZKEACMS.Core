@@ -2,20 +2,20 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Microsoft.AspNetCore.Mvc.Razor;
-using Easy.Mvc.Resource;
-using Microsoft.AspNetCore.Html;
-using Easy.Mvc.Resource.Enums;
-using System.Linq;
 using Easy.Extend;
-using System.Collections.Generic;
 using Easy.Mvc.Authorize;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Mvc.Routing;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Hosting;
+using Easy.Mvc.Resource;
+using Easy.Mvc.Resource.Enums;
 using Easy.Options;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Html;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Mvc.Routing;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Easy.Mvc.RazorPages
 {

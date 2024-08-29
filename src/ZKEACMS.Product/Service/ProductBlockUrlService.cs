@@ -5,9 +5,6 @@
 using Easy;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using ZKEACMS.Article.Service;
-using ZKEACMS.Product.Service;
 using ZKEACMS.Sitemap.Service;
 
 namespace ZKEACMS.Product.Service

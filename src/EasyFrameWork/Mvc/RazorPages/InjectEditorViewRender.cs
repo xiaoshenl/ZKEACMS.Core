@@ -6,9 +6,6 @@ using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.Encodings.Web;
 
 namespace Easy.Mvc.RazorPages
 {

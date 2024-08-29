@@ -8,7 +8,7 @@ namespace ZKEACMS.Mail
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

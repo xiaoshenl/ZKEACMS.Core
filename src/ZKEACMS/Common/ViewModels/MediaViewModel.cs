@@ -2,9 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.RepositoryPattern;
 using System.Collections.Generic;
 using ZKEACMS.Media;
-using Easy.RepositoryPattern;
 
 namespace ZKEACMS.Common.ViewModels
 {

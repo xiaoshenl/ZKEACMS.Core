@@ -5,11 +5,7 @@
 using Easy.MetaData;
 using Easy.Models;
 using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 using ZKEACMS.Extend;
 
 namespace ZKEACMS.Product.Models
@@ -29,7 +25,7 @@ namespace ZKEACMS.Product.Models
             ViewConfig(m => m.ID).AsHidden();
             ViewConfig(m => m.ProductId).AsHidden();
             ViewConfig(m => m.Description).AsHidden();
-            
+
             ViewConfig(m => m.ImageUrl).AsTextBox().Required().MediaSelector();
         }
     }

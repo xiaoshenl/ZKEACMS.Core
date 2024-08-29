@@ -111,12 +111,12 @@ namespace ZKEACMS.SectionWidget.Controllers
             {
                 try
                 {
-                    using(Stream stream = Request.Form.Files[0].OpenReadStream())
+                    using (Stream stream = Request.Form.Files[0].OpenReadStream())
                     {
                         Package package;
                         var installer = _packageInstallerProvider.CreateInstaller(stream, out package);
                         installer.Install(package);
-                    }                    
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -128,7 +128,7 @@ namespace ZKEACMS.SectionWidget.Controllers
         }
 
         [HttpPost]
-        public JsonResult SplitColumn([FromBody]List<SectionGroup> groups)
+        public JsonResult SplitColumn([FromBody] List<SectionGroup> groups)
         {
             if (groups != null)
             {

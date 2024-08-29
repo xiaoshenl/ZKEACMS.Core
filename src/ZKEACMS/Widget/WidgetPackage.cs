@@ -3,10 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Modules.DataDictionary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using ZKEACMS.PackageManger;
 
 namespace ZKEACMS.Widget

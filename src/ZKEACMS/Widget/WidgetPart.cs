@@ -6,7 +6,7 @@ namespace ZKEACMS.Widget
 {
     public class WidgetViewModelPart
     {
-        public WidgetViewModelPart(WidgetBase widget,object viewModel)
+        public WidgetViewModelPart(WidgetBase widget, object viewModel)
         {
             Widget = widget;
             ViewModel = viewModel;

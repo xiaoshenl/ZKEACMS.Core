@@ -2,9 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Microsoft.AspNetCore.Http;
 using System;
 using System.ComponentModel;
-using Microsoft.AspNetCore.Http;
 
 namespace Easy.Mvc.ValueProvider
 {

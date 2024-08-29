@@ -2,28 +2,25 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Extend;
 using Easy.Mvc.Plugin;
 using Easy.Mvc.Resource;
 using Easy.Mvc.Route;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Reflection;
-using ZKEACMS.Widget;
-using Easy.Extend;
-using System.IO;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using ZKEACMS.WidgetTemplate;
-using ZKEACMS.Route;
-using System.Linq;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.DependencyModel;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.AspNetCore.Mvc.Razor.Compilation;
 using Microsoft.AspNetCore.Razor.Hosting;
-using Microsoft.Extensions.Primitives;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using ZKEACMS.Widget;
+using ZKEACMS.WidgetTemplate;
 
 namespace ZKEACMS
 {

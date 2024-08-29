@@ -8,7 +8,7 @@ namespace ZKEACMS.SectionWidget
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

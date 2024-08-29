@@ -2,19 +2,16 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
 using Easy;
+using Easy.Cache;
 using Easy.Extend;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
+using System;
+using System.Linq;
 using ZKEACMS.Article.Models;
 using ZKEACMS.Article.ViewModel;
 using ZKEACMS.Widget;
-using Microsoft.AspNetCore.Mvc;
-using System.Linq;
-using System.Collections.Concurrent;
-using Easy.Cache;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace ZKEACMS.Article.Service
 {

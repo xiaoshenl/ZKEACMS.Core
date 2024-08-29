@@ -2,15 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Net.Mail;
-using System.Net;
 using Easy.Extend;
-using Microsoft.Extensions.Logging;
-using System.IO;
 using Easy.Notification.Queue;
+using Microsoft.Extensions.Logging;
+using System;
+using System.IO;
+using System.Net.Mail;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Easy.Notification

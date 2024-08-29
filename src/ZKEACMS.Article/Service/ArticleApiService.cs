@@ -4,11 +4,6 @@
 
 using Easy.Mvc.Authorize;
 using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.Article.Models;
 using ZKEACMS.Safety;
 
@@ -59,7 +54,7 @@ namespace ZKEACMS.Article.Service
         {
             var validResult = ValidArticleType(article);
             if (validResult.HasViolation) return validResult;
-            
+
             article.ArticleContent = _htmlSanitizer.Sanitize(article.ArticleContent);
             return _articleService.Add(article);
         }

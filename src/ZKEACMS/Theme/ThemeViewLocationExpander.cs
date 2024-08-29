@@ -2,14 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Mvc.Razor.Internal;
 
 namespace ZKEACMS.Theme
 {
@@ -19,10 +15,10 @@ namespace ZKEACMS.Theme
         private readonly string wwwroot = "wwwroot";
         public ThemeViewLocationExpander()
         {
-            
+
         }
 
-        public void PopulateValues([FromServices]ViewLocationExpanderContext context)
+        public void PopulateValues([FromServices] ViewLocationExpanderContext context)
         {
             var service = context.ActionContext.HttpContext.RequestServices.GetService<IThemeService>();
             var theme = service.GetCurrentTheme();
@@ -30,7 +26,7 @@ namespace ZKEACMS.Theme
             {
                 context.Values["theme"] = theme.ID;
             }
-            
+
         }
 
         /// <summary>

@@ -8,9 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ActionConstraints;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.Net.Http.Headers;
 using System;
 using System.Linq;
+using ZKEACMS;
 using ZKEACMS.Event;
 using ZKEACMS.Layout;
 using ZKEACMS.Page;
@@ -18,11 +20,6 @@ using ZKEACMS.Rule;
 using ZKEACMS.Setting;
 using ZKEACMS.Theme;
 using ZKEACMS.Widget;
-using ZKEACMS;
-using System.IO;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Logging;
-using Easy.Constant;
 
 namespace ZKEACMS.Filter
 {

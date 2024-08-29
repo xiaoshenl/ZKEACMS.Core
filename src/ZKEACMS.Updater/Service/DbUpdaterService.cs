@@ -3,11 +3,8 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Extend;
-using Easy.Mvc.Plugin;
 using Easy.Net;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;

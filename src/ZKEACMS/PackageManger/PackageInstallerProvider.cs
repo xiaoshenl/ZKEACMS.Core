@@ -3,7 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Serializer;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;

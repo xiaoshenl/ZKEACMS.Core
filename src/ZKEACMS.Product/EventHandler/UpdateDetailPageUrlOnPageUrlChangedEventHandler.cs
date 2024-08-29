@@ -2,10 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Linq;
-using ZKEACMS.Product.Service;
 using ZKEACMS.Event;
 using ZKEACMS.Page;
+using ZKEACMS.Product.Service;
 
 namespace ZKEACMS.Product.EventHandler
 {
@@ -14,7 +13,7 @@ namespace ZKEACMS.Product.EventHandler
         private readonly IProductListWidgetDataService _productListWidgetService;
         private readonly IProductGalleryWidgetDataService _productGalleryWidgetDataService;
 
-        public UpdateDetailPageUrlOnPageUrlChangedEventHandler(IProductListWidgetDataService articleListWidgetService, 
+        public UpdateDetailPageUrlOnPageUrlChangedEventHandler(IProductListWidgetDataService articleListWidgetService,
             IProductGalleryWidgetDataService productGalleryWidgetDataService)
         {
             _productListWidgetService = articleListWidgetService;

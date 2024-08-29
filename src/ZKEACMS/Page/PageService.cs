@@ -6,7 +6,6 @@ using Easy;
 using Easy.Extend;
 using Easy.RepositoryPattern;
 using Easy.Serializer;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

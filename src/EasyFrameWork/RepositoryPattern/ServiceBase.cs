@@ -2,18 +2,15 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.LINQ;
+using Easy.Extend;
 using Easy.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using Easy.Extend;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Threading.Tasks;
 
 namespace Easy.RepositoryPattern
@@ -79,7 +76,7 @@ namespace Easy.RepositoryPattern
                         else
                         {
                             transaction.Commit();
-                        }                        
+                        }
                         return result;
                     }
                     catch
@@ -357,7 +354,7 @@ namespace Easy.RepositoryPattern
         }
         private void SaveChanges()
         {
-            if(!isInBulkSaving)
+            if (!isInBulkSaving)
             {
                 DbContext.SaveChanges();
             }
@@ -373,7 +370,7 @@ namespace Easy.RepositoryPattern
             isInBulkSaving = false;
             SaveChanges();
         }
-        
+
     }
     public abstract class ServiceBase<T> : ServiceBase<T, DbContext>
         where T : class

@@ -3,7 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using System;
-using Easy.ViewPort.Validator;
 
 namespace Easy.ViewPort.Descriptor
 {
@@ -15,6 +14,6 @@ namespace Easy.ViewPort.Descriptor
             this.TagType = HTMLEnumerate.HTMLTagTypes.File;
             this.TemplateName = "FileInput";
         }
-        
+
     }
 }

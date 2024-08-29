@@ -2,13 +2,9 @@
  * Copyright 2023 ZKEASOFT 
  * http://www.zkea.net/licenses */
 
-using Easy;
 using Easy.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
-using System.Linq.Expressions;
-using System.Text;
 
 namespace EasyFrameWork.Test
 {
@@ -48,7 +44,7 @@ namespace EasyFrameWork.Test
             Assert.AreEqual("Run", PropertyHelper.GetValue(people, "Children[0].Hobby[0]"));
 
             Assert.AreEqual("A", PropertyHelper.GetValue(new string[] { "A" }, "[0]"));
-            Assert.AreEqual("A", PropertyHelper.GetValue(new Dictionary<string,string> { { "A", "A" } }, "[\"A\"]"));
+            Assert.AreEqual("A", PropertyHelper.GetValue(new Dictionary<string, string> { { "A", "A" } }, "[\"A\"]"));
         }
 
         [TestMethod]

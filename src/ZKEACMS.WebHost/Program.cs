@@ -2,12 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy;
 using Easy.Mvc.Plugin;
 using Easy.Mvc.Resource;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -30,7 +28,7 @@ namespace ZKEACMS.WebHost
         private static WebApplication BuildApplication(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            
+
             builder.Host.UseSerilog((hostingContext, loggerConfiguration) =>
             {
                 loggerConfiguration.ReadFrom.Configuration(hostingContext.Configuration);

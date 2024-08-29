@@ -9,7 +9,6 @@ using Easy.Serializer;
 using FastExpressionCompiler;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -17,8 +16,6 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using YamlDotNet.Serialization;
-using YamlDotNet.Serialization.NamingConventions;
 
 namespace Easy.Modules.MutiLanguage
 {

@@ -2,11 +2,8 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Cache;
-using System.Collections.Generic;
 using System.Linq;
 using ZKEACMS.Event;
-using ZKEACMS.Widget;
 
 namespace ZKEACMS.Page
 {

@@ -6,7 +6,6 @@ using Easy.MetaData;
 using Easy.Models;
 using Easy.RepositoryPattern;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ZKEACMS.DataArchived
 {

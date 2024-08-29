@@ -4,14 +4,10 @@
 
 using Easy;
 using Easy.Constant;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ZKEACMS.Product.Service;
 using ZKEACMS.Extend;
 using ZKEACMS.MetaData;
+using ZKEACMS.Product.Service;
 using ZKEACMS.Widget;
 
 namespace ZKEACMS.Product.Models

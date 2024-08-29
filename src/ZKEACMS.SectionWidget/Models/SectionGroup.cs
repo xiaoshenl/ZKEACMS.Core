@@ -2,18 +2,16 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using ZKEACMS.SectionWidget.Service;
+using Easy;
 using Easy.Extend;
 using Easy.MetaData;
 using Easy.Models;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.Extensions.DependencyInjection;
-using System.ComponentModel.DataAnnotations;
-using Easy;
 using Easy.RepositoryPattern;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using ZKEACMS.SectionWidget.Service;
 
 namespace ZKEACMS.SectionWidget.Models
 {

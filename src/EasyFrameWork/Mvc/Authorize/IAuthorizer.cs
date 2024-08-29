@@ -3,7 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Models;
-using Easy.Modules.User.Models;
 
 namespace Easy.Mvc.Authorize
 {

@@ -2,6 +2,7 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Extend;
 using Easy.MetaData;
 using Easy.Models;
 using Easy.RepositoryPattern;
@@ -9,8 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
-using Easy.Extend;
 
 namespace ZKEACMS.Rule
 {

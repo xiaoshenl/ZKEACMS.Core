@@ -4,9 +4,6 @@
 
 
 using Easy.Constant;
-using Easy.MetaData;
-using Easy.RepositoryPattern;
-using System.ComponentModel.DataAnnotations.Schema;
 using ZKEACMS.MetaData;
 using ZKEACMS.Widget;
 

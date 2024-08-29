@@ -6,9 +6,7 @@ using Easy.Serializer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace Easy.Mvc.Resource
 {

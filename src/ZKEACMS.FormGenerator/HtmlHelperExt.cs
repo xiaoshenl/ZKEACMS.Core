@@ -2,15 +2,12 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Microsoft.AspNetCore.Html;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ZKEACMS.FormGenerator.Models;
 using Easy.Extend;
 using Easy.Serializer;
+using Microsoft.AspNetCore.Html;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Linq;
+using ZKEACMS.FormGenerator.Models;
 
 namespace ZKEACMS.FormGenerator
 {

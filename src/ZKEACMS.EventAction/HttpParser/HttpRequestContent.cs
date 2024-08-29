@@ -6,8 +6,6 @@ using Easy.Extend;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Text;
 using ZKEACMS.EventAction.HttpParser.Helps;
 
@@ -38,7 +36,7 @@ namespace ZKEACMS.EventAction.HttpParser
             return parsed;
 
         }
-        
+
 
         public override string ToString()
         {

@@ -38,7 +38,7 @@ namespace ZKEACMS.TemplateImporter.Controllers
                 {
                     _templateImporterService.Import(filePath);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     ViewBag.Message = ex.Message;
                     return View();

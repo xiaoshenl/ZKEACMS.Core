@@ -3,17 +3,15 @@
  * http://www.zkea.net/licenses */
 
 using Easy;
-using Easy.RepositoryPattern;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Easy.Extend;
-using ZKEACMS.Extend;
-using System.Linq;
-using ZKEACMS.Widget;
+using Easy.RepositoryPattern;
 using Easy.RuleEngine;
 using Easy.Serializer;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZKEACMS.Extend;
+using ZKEACMS.Widget;
 
 namespace ZKEACMS.Rule
 {
@@ -66,7 +64,7 @@ namespace ZKEACMS.Rule
         {
             if (value.StartsWith("[") && value.EndsWith("]"))
                 return value;
-            if (value.All(c => IsDigitCharacter(c)) || 
+            if (value.All(c => IsDigitCharacter(c)) ||
                 (value.StartsWith("Date(") && value.EndsWith(")")) ||
                 (value.StartsWith("Money(") && value.EndsWith(")")))
             {

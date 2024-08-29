@@ -4,11 +4,6 @@
 
 using Easy.MetaData;
 using Easy.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ZKEACMS.Product.Models
 {

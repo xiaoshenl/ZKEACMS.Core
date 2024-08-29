@@ -2,9 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Extend;
 using Microsoft.AspNetCore.Http;
 using System.IO;
-using Easy.Extend;
 
 namespace Easy.Mvc.Extend
 {

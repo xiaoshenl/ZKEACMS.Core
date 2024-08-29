@@ -2,9 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.RuleEngine.Scripting.Ast;
 using System;
 using System.Linq;
-using Easy.RuleEngine.Scripting.Ast;
 
 namespace Easy.RuleEngine.Scripting.Compiler
 {
@@ -61,7 +61,7 @@ namespace Easy.RuleEngine.Scripting.Compiler
             var right = Evaluate(node.Right);
             if (right.IsError)
                 return right;
-           
+
             switch (node.Token.Kind)
             {
                 case TokenKind.Plus:

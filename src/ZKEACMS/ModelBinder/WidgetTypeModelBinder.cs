@@ -299,7 +299,7 @@ namespace ZKEACMS.ModelBinder
                     {
                         if (!valid.Validate(value))
                         {
-                           if(valid.DisplayName == null)
+                            if (valid.DisplayName == null)
                             {
                                 valid.DisplayName = () => descriptor.DisplayName;
                             }

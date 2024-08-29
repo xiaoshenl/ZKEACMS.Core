@@ -3,7 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;

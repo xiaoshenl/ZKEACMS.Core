@@ -8,7 +8,7 @@ namespace ZKEACMS.Message
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

@@ -3,10 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using ZKEACMS.PackageManger;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ZKEACMS.Theme
 {

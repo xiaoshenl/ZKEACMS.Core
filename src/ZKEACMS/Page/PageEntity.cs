@@ -2,16 +2,15 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
 using Easy.Constant;
 using Easy.Extend;
 using Easy.MetaData;
 using Easy.Models;
-using ZKEACMS.ExtendField;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 using Easy.RepositoryPattern;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ZKEACMS.Page
 {
@@ -62,7 +61,7 @@ namespace ZKEACMS.Page
         public List<PageAsset> Styles { get; set; }
         [NotMapped]
         public List<PageAsset> Scripts { get; set; }
-        public void ConfigSEO(string title,string keywords,string description)
+        public void ConfigSEO(string title, string keywords, string description)
         {
             if (title.IsNotNullAndWhiteSpace())
             {
@@ -92,7 +91,7 @@ namespace ZKEACMS.Page
             ViewConfig(m => m.Style).AsHidden();
             ViewConfig(m => m.Scripts).AsListEditor().Sortable();
             ViewConfig(m => m.Styles).AsListEditor().Sortable();
-            
+
             ViewConfig(m => m.ParentId).AsHidden();
             ViewConfig(m => m.ID).AsHidden();
             ViewConfig(m => m.DisplayOrder).AsHidden();

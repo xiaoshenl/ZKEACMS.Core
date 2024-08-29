@@ -2,29 +2,25 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Easy;
 using Easy.Constant;
 using Easy.Extend;
-using Easy.Mvc.Attribute;
-using Easy.Mvc.Authorize;
-using Microsoft.AspNetCore.Mvc;
-using ZKEACMS.Widget;
-using ZKEACMS.WidgetTemplate;
-using Easy.Mvc.ValueProvider;
-using Easy;
+using Easy.Modules.DataDictionary;
 using Easy.Mvc;
-using ZKEACMS.Common.Models;
+using Easy.Mvc.Authorize;
+using Easy.Mvc.ValueProvider;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
+using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using ZKEACMS.Common.Models;
 using ZKEACMS.PackageManger;
 using ZKEACMS.Page;
-using Easy.Modules.DataDictionary;
-using Easy.Serializer;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Hosting;
-using Easy.Mvc.Extend;
-using Microsoft.Extensions.Options;
+using ZKEACMS.Widget;
+using ZKEACMS.WidgetTemplate;
 using ZKEACMS.Zone;
 
 namespace ZKEACMS.Controllers

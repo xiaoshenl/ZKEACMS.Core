@@ -4,13 +4,8 @@
 
 using Easy.Modules.MutiLanguage;
 using Easy.Modules.Role;
-using Easy.Modules.User.Models;
 using Easy.RepositoryPattern;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Easy
 {

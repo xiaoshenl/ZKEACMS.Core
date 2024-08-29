@@ -5,20 +5,16 @@
 using Alipay.AopSdk.AspnetCore;
 using Alipay.AopSdk.Core;
 using Alipay.AopSdk.Core.Util;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ZKEACMS.DataArchived;
-using ZKEACMS.Setting;
 using Easy.Extend;
+using Microsoft.Extensions.Options;
+using System.Collections.Generic;
+using ZKEACMS.Setting;
 
 namespace ZKEACMS.Shop.Service
 {
     public class AlipayService : IAlipayService
     {
-        public AlipayOptions Options { get; set; }        
+        public AlipayOptions Options { get; set; }
 
         private readonly IAopClient _aopClient;
         public AlipayService(IOptions<AlipayOptions> alipayOptions, IApplicationSettingService applicationSettingService)

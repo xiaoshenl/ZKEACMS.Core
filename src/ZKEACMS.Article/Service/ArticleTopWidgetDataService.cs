@@ -6,11 +6,7 @@
 using Easy;
 using Easy.RepositoryPattern;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.Article.Models;
 
 namespace ZKEACMS.Article.Service
@@ -26,14 +22,14 @@ namespace ZKEACMS.Article.Service
             var widgets = Get(m => m.DetailPageUrl == oldUrl || m.DetailPageUrl.StartsWith(oldUrl + "/") || m.MoreLink == oldUrl || m.MoreLink.StartsWith(oldUrl + "/"));
             foreach (var item in widgets)
             {
-                if(item.DetailPageUrl == oldUrl || item.DetailPageUrl.StartsWith(oldUrl + "/"))
+                if (item.DetailPageUrl == oldUrl || item.DetailPageUrl.StartsWith(oldUrl + "/"))
                 {
                     item.DetailPageUrl = newUrl + item.DetailPageUrl.Substring(oldUrl.Length);
                 }
-                if(item.MoreLink == oldUrl || item.MoreLink.StartsWith(oldUrl + "/"))
+                if (item.MoreLink == oldUrl || item.MoreLink.StartsWith(oldUrl + "/"))
                 {
                     item.MoreLink = newUrl + item.MoreLink.Substring(oldUrl.Length);
-                }                
+                }
             }
             UpdateRange(widgets.ToArray());
         }

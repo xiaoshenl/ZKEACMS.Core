@@ -2,11 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using ZKEACMS.SectionWidget.Models;
-using Easy.RepositoryPattern;
 using Easy;
-using Microsoft.EntityFrameworkCore;
-using System;
+using Easy.RepositoryPattern;
+using ZKEACMS.SectionWidget.Models;
 
 namespace ZKEACMS.SectionWidget.Service
 {
@@ -15,6 +13,6 @@ namespace ZKEACMS.SectionWidget.Service
         public SectionTemplateService(IApplicationContext applicationContext, CMSDbContext dbContext) : base(applicationContext, dbContext)
         {
         }
-        
+
     }
 }

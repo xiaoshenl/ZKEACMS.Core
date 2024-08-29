@@ -2,9 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Microsoft.AspNetCore.Http;
-using System.IO;
-using Easy.Extend;
 using Easy.ViewPort.Descriptor;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 

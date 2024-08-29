@@ -1,11 +1,11 @@
 /* http://www.zkea.net/ Copyright 2016 ZKEASOFT http://www.zkea.net/licenses */
+using Easy.Constant;
 using Easy.Extend;
 using Easy.RepositoryPattern;
-using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using Easy.Constant;
+using System.Linq;
 using System.Linq.Expressions;
 
 namespace Easy.Modules.Role

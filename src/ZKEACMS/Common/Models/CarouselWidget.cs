@@ -2,20 +2,16 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using ZKEACMS.Common.Service;
+using Easy;
+using Easy.Constant;
 using Easy.Extend;
-using Easy.MetaData;
+using Easy.RepositoryPattern;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using ZKEACMS.Common.Service;
+using ZKEACMS.Extend;
 using ZKEACMS.MetaData;
 using ZKEACMS.Widget;
-using Easy;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.Extensions.DependencyInjection;
-using Easy.Constant;
-using Easy.RepositoryPattern;
-using ZKEACMS.Extend;
 
 namespace ZKEACMS.Common.Models
 {

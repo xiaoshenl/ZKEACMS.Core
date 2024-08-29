@@ -31,7 +31,7 @@ namespace ZKEACMS.Captcha
             FontFamilies = fontCollection.Families.ToArray();
         }
         public FontFamily[] FontFamilies { get; set; }
-        public Color[] TextColor { get; set; } = new Color[] 
+        public Color[] TextColor { get; set; } = new Color[]
         {
             Color.Blue, Color.Black, Color.Red, Color.Brown, Color.Green, Color.DarkBlue, Color.DarkCyan,
             Color.DarkGoldenrod, Color.DarkGray, Color.DarkGreen, Color.DarkKhaki, Color.DarkMagenta, Color.DarkOliveGreen, Color.DarkOrange,Color.DarkOrchid,

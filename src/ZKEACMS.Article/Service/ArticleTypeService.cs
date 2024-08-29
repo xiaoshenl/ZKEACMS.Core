@@ -2,14 +2,12 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
 using Easy.Extend;
 using Easy.RepositoryPattern;
 using System.Collections.Generic;
-using ZKEACMS.Article.Models;
-using Easy;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Linq;
+using ZKEACMS.Article.Models;
 
 namespace ZKEACMS.Article.Service
 {
@@ -22,7 +20,7 @@ namespace ZKEACMS.Article.Service
         {
             _articleService = articleService;
             _localize = localize;
-        }     
+        }
 
         public override ServiceResult<ArticleType> Add(ArticleType item)
         {
@@ -68,7 +66,7 @@ namespace ZKEACMS.Article.Service
                 GetChildren(item.ID).Each(m =>
                 {
                     Remove(m);
-                });                
+                });
             }
             base.Remove(item);
         }

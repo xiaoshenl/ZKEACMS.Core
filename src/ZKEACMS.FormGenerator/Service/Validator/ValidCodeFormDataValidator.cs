@@ -3,13 +3,9 @@
  * http://www.zkea.net/licenses */
 
 using Easy;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ZKEACMS.FormGenerator.Models;
-using ZKEACMS.Captcha;
 using Easy.Extend;
+using ZKEACMS.Captcha;
+using ZKEACMS.FormGenerator.Models;
 
 namespace ZKEACMS.FormGenerator.Service.Validator
 {

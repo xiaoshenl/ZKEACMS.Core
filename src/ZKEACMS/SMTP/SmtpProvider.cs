@@ -2,13 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Extend;
 using Easy.Notification;
 using System.Net;
 using System.Net.Mail;
 using ZKEACMS.Setting;
-using Easy.Extend;
-using System;
-using System.IO;
 
 namespace ZKEACMS.SMTP
 {

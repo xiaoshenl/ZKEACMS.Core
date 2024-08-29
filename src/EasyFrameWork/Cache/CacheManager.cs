@@ -4,9 +4,6 @@
 
 using Microsoft.Extensions.Caching.Memory;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Easy.Cache
@@ -15,7 +12,7 @@ namespace Easy.Cache
     {
         private readonly IMemoryCache _memoryCache;
         private readonly ISignals _signals;
-        
+
 
         public CacheManager(IMemoryCache memoryCache, ISignals signals)
         {

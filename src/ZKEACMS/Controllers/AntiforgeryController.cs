@@ -25,7 +25,7 @@ namespace ZKEACMS.Controllers
             }
             catch
             {
-                string content = "/*! http://www.zkea.net/ Copyright (c) ZKEASOFT. All rights reserved. http://www.zkea.net/licenses */ var ZKEACMS = ZKEACMS || {}; ZKEACMS.AntiToken = {};fetch('"+ Url.Action("GetRequestToken") +"', { method: 'POST', cache: 'no-cache',headers: { 'Content-Type': 'application/json'} }).then(function (data) { return data.json() }).then(function (data) { ZKEACMS.AntiToken[data.key]=data.value; });";
+                string content = "/*! http://www.zkea.net/ Copyright (c) ZKEASOFT. All rights reserved. http://www.zkea.net/licenses */ var ZKEACMS = ZKEACMS || {}; ZKEACMS.AntiToken = {};fetch('" + Url.Action("GetRequestToken") + "', { method: 'POST', cache: 'no-cache',headers: { 'Content-Type': 'application/json'} }).then(function (data) { return data.json() }).then(function (data) { ZKEACMS.AntiToken[data.key]=data.value; });";
                 return Content(content, "application/javascript");
             }
         }

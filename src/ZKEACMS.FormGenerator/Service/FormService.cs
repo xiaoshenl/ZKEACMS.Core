@@ -2,15 +2,12 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
 using Easy.RepositoryPattern;
+using Easy.Serializer;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using ZKEACMS.FormGenerator.Models;
-using Microsoft.EntityFrameworkCore;
-using Easy;
-using Easy.Serializer;
 
 namespace ZKEACMS.FormGenerator.Service
 {
@@ -19,7 +16,7 @@ namespace ZKEACMS.FormGenerator.Service
         public FormService(IApplicationContext applicationContext, CMSDbContext dbContext) : base(applicationContext, dbContext)
         {
         }
-        
+
         public override ServiceResult<Form> Add(Form item)
         {
             item.ID = Guid.NewGuid().ToString("N");

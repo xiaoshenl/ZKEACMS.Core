@@ -5,12 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Easy;
-using Easy.RepositoryPattern;
-using Microsoft.EntityFrameworkCore;
-using ZKEACMS.Common.Models;
 using ZKEACMS.Common.Service;
-using ZKEACMS.Widget;
 
 namespace ZKEACMS.WidgetTemplate
 {

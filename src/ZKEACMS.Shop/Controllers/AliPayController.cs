@@ -5,21 +5,14 @@
 using Alipay.AopSdk.AspnetCore;
 using Alipay.AopSdk.Core.Domain;
 using Alipay.AopSdk.Core.Request;
-using Microsoft.AspNetCore.Http;
+using Easy.Extend;
+using Easy.Mvc.ViewResult;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using ZKEACMS.Shop.Payment;
 using ZKEACMS.Shop.Service;
-using Easy.Mvc.Extend;
-using ZKEACMS.Setting;
-using Easy.Extend;
-using Easy.Mvc.Authorize;
-using ZKEACMS.DataArchived;
-using Easy.Mvc.ViewResult;
 
 namespace ZKEACMS.Shop.Controllers
 {

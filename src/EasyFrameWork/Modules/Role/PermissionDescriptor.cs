@@ -3,8 +3,6 @@
  * Copyright 2017 ZKEASOFT 
  * http://www.zkea.net/licenses 
  */
-using System;
-
 namespace Easy.Modules.Role
 {
     public class PermissionDescriptor
@@ -13,7 +11,7 @@ namespace Easy.Modules.Role
         {
 
         }
-        public PermissionDescriptor(string key,string module,string title,string description)
+        public PermissionDescriptor(string key, string module, string title, string description)
         {
             Key = key;
             Module = module;

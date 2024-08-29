@@ -3,10 +3,7 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Constant;
-using Easy.MetaData;
 using Easy.RepositoryPattern;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using ZKEACMS.Extend;
 using ZKEACMS.MetaData;
 using ZKEACMS.Widget;

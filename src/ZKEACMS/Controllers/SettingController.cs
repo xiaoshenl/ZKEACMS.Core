@@ -3,9 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using ZKEACMS.Setting;
 
 namespace ZKEACMS.Controllers

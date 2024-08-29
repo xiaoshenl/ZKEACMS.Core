@@ -5,11 +5,6 @@
 using Easy;
 using Easy.Mvc.StateProviders;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ZKEACMS.Setting;
 
 namespace ZKEACMS.Site
 {

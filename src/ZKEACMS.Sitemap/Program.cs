@@ -8,7 +8,7 @@ namespace ZKEACMS.Sitemap
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

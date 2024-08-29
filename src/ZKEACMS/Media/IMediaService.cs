@@ -18,7 +18,7 @@ namespace ZKEACMS.Media
         Task<ServiceResult<MediaEntity>> AddMediaToImageFolderAsync(MediaEntity entity, Stream fileStream);
         Task<ServiceResult<MediaEntity>> UploadFromExternalImageAsync(string imageUrl);
         Task<ServiceResult<MediaEntity>> UploadFromBlobImageAsync(Stream stream, string fileName);
-        
+
         Task<Stream> GetStreamAsync(string url);
     }
 }

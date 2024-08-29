@@ -2,9 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Modules.Role;
 using System;
 using System.Collections.Generic;
-using Easy.Modules.Role;
 
 namespace Easy.Models
 {

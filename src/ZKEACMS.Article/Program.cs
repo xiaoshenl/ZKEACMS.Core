@@ -8,7 +8,7 @@ namespace ZKEACMS.Article
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

@@ -2,8 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.MetaData;
-using Easy.Models;
 using Easy.RepositoryPattern;
 using System;
 using System.ComponentModel.DataAnnotations;

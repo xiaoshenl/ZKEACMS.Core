@@ -2,18 +2,18 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy;
 using Easy.Mvc.Resource;
 using Easy.Mvc.Route;
-using System;
-using System.Collections.Generic;
+using Easy.RepositoryPattern;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Easy.RepositoryPattern;
-using ZKEACMS.FormGenerator.Service;
-using Easy;
+using System;
+using System.Collections.Generic;
 using ZKEACMS.FormGenerator.Models;
-using ZKEACMS.WidgetTemplate;
+using ZKEACMS.FormGenerator.Service;
 using ZKEACMS.FormGenerator.Service.Validator;
+using ZKEACMS.WidgetTemplate;
 
 namespace ZKEACMS.FormGenerator
 {
@@ -139,7 +139,7 @@ namespace ZKEACMS.FormGenerator
             {
                 option.DataSourceLinkTitle = "Form";
                 option.DataSourceLink = "~/admin/form";
-            });            
+            });
         }
     }
 }

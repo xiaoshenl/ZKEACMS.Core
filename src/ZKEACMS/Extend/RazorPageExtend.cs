@@ -2,12 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Extend;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Razor;
-using Microsoft.AspNetCore.Mvc.Routing;
-using Microsoft.AspNetCore.WebUtilities;
-
 namespace ZKEACMS
 {
     public static class RazorPageExtend

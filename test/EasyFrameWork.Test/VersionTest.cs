@@ -2,11 +2,7 @@
  * Copyright 2020 ZKEASOFT 
  * http://www.zkea.net/licenses */
 
-using Easy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Version = Easy.Version;
 
 namespace EasyFrameWork.Test

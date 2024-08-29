@@ -5,11 +5,10 @@
 
 using System;
 using System.Net.Http;
-using System.Net.Http.Headers;
 
 namespace Easy.Net.WebApi
 {
-	public interface IRequestSerializer
+    public interface IRequestSerializer
     {
         string GetContentTypeRegexPattern();
         HttpContent SerializeRequest(HttpRequest request);

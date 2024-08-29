@@ -2,13 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.ComponentModel.DataAnnotations;
-using Easy.MetaData;
-using System.ComponentModel.DataAnnotations.Schema;
-using Easy.Models;
-using System;
 using Easy.Extend;
+using Easy.MetaData;
 using Easy.RepositoryPattern;
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Easy.Modules.MutiLanguage
 {

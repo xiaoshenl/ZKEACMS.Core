@@ -2,12 +2,12 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Collections.Generic;
 using Easy.MetaData;
 using Easy.Models;
+using Easy.RepositoryPattern;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Easy.RepositoryPattern;
 
 namespace ZKEACMS.Common.Models
 {

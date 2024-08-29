@@ -2,7 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Mvc.Attribute;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -23,7 +22,7 @@ namespace ZKEACMS.Product.ActionFilter
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             var productCategoryService = filterContext.HttpContext.RequestServices.GetService<IProductCategoryService>();
-            (filterContext.Controller as Controller) .ViewData[ViewDataKeys.ProductCategory] = 
+            (filterContext.Controller as Controller).ViewData[ViewDataKeys.ProductCategory] =
                 new SelectList(productCategoryService.Get().ToList(), "ID", "Title");
         }
     }

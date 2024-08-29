@@ -2,19 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
+using Easy.Extend;
+using Newtonsoft.Json;
 using System.IO;
 using System.IO.Compression;
-using System.IO.Packaging;
-using System.Linq;
-using System.Reflection;
 using System.Text;
-using Easy.Extend;
-using Easy.Serializer;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
-using ZKEACMS.Widget;
 
 namespace ZKEACMS.PackageManger
 {

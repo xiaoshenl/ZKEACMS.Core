@@ -2,19 +2,18 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Cache;
+using Easy.Extend;
+using Easy.RepositoryPattern;
+using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Linq;
 using System.IO;
-using ZKEACMS.Theme;
-using ZKEACMS.Extend;
-using Easy.Extend;
-using ZKEACMS.Common.Models;
-using Microsoft.AspNetCore.Hosting;
-using Easy.RepositoryPattern;
-using Easy.Cache;
 using System.IO.Compression;
+using System.Linq;
+using System.Text;
+using ZKEACMS.Common.Models;
+using ZKEACMS.Theme;
 
 namespace ZKEACMS.Common.Service
 {
@@ -272,7 +271,7 @@ namespace ZKEACMS.Common.Service
                     writer.WriteLine("@using ZKEACMS.WidgetTemplate");
                     writer.WriteLine("@using ZKEACMS.Zone");
                     writer.WriteLine("@using Easy.Constant");
-                    if(addtionalUsing != null)
+                    if (addtionalUsing != null)
                     {
                         foreach (var item in addtionalUsing)
                         {

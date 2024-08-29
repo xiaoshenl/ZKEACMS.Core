@@ -5,10 +5,6 @@
 using Easy.Reflection;
 using System;
 using System.Collections;
-using System.Collections.Concurrent;
-using System.Linq.Expressions;
-using System.Reflection;
-using System.Text;
 
 namespace Easy.RuleEngine.RuleProviders
 {

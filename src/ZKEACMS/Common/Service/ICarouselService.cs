@@ -2,13 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using ZKEACMS.Common.Models;
 using Easy.RepositoryPattern;
+using ZKEACMS.Common.Models;
 
 namespace ZKEACMS.Common.Service
 {
     public interface ICarouselService : IService<CarouselEntity>
     {
-         
+
     }
 }

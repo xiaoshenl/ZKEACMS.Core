@@ -8,7 +8,7 @@ namespace ZKEACMS.SpiderLog
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

@@ -2,20 +2,12 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using ZKEACMS.GlobalScripts.Models;
-using Easy;
-using Microsoft.AspNetCore.Http;
-using ZKEACMS.Page;
-using ZKEACMS.Event;
-using ZKEACMS.Setting;
-using Microsoft.AspNetCore.Html;
 using Easy.Extend;
+using Microsoft.AspNetCore.Html;
+using System;
+using ZKEACMS.Event;
+using ZKEACMS.GlobalScripts.Models;
+using ZKEACMS.Setting;
 
 namespace ZKEACMS.GlobalScripts.Service
 {

@@ -2,11 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Routing;
+using System;
+using System.Linq;
 using ZKEACMS.Product.Service;
 using ZKEACMS.Route;
 
@@ -33,7 +31,7 @@ namespace ZKEACMS.Product
                 if (category != null)
                 {
                     var url = pathArray[pathArray.Length - 1];
-                    
+
                     values.SetCategoryUrl(url);
                     values.SetCategory(category.ID);
 

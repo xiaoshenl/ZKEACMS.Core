@@ -2,22 +2,15 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Mvc.Controllers;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ZKEACMS.FormGenerator.Models;
-using ZKEACMS.FormGenerator.Service;
+using Easy;
 using Easy.Extend;
 using Easy.Mvc.Authorize;
+using Easy.Mvc.Controllers;
 using Microsoft.AspNetCore.Authorization;
-using System.Net;
-using Microsoft.AspNetCore.WebUtilities;
-using Microsoft.Extensions.Primitives;
+using Microsoft.AspNetCore.Mvc;
 using ZKEACMS.Filter;
-using Easy;
+using ZKEACMS.FormGenerator.Models;
+using ZKEACMS.FormGenerator.Service;
 
 namespace ZKEACMS.FormGenerator.Controllers
 {

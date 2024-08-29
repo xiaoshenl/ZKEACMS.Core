@@ -2,12 +2,8 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using Easy.MetaData;
-using ZKEACMS.Widget;
-using ZKEACMS.MetaData;
-using System.ComponentModel.DataAnnotations.Schema;
 using Easy.RepositoryPattern;
+using ZKEACMS.Widget;
 
 namespace ZKEACMS.Sitemap.Models
 {

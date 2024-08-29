@@ -2,12 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
 using Easy;
-using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using ZKEACMS.Article.Models;
-using ZKEACMS.Common.Models;
 using ZKEACMS.Widget;
 
 namespace ZKEACMS.Article.Service

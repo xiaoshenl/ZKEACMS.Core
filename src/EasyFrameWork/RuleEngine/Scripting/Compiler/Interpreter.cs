@@ -2,9 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.RuleEngine.Scripting.Ast;
 using System;
 using System.Collections.Generic;
-using Easy.RuleEngine.Scripting.Ast;
 
 namespace Easy.RuleEngine.Scripting.Compiler
 {

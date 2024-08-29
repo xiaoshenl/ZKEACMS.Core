@@ -2,17 +2,12 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Easy.Mvc.Controllers;
-using ZKEACMS.EventAction.Service;
 using Easy.Mvc.Authorize;
-using ZKEACMS.EventAction.Models;
+using Easy.Mvc.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Text;
+using ZKEACMS.EventAction.Service;
 
 namespace ZKEACMS.EventAction.Controllers
 {

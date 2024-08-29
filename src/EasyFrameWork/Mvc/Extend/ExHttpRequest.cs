@@ -2,13 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using Easy.Storage;
 using Easy.Extend;
-using Microsoft.AspNetCore.Http;
-using System.IO;
+using Easy.Storage;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.IO;
 
 namespace Easy.Mvc.Extend
 {

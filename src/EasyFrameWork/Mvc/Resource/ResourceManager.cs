@@ -5,7 +5,6 @@
 using Easy.Mvc.Resource.Enums;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using System;
-using System.Collections.Generic;
 
 namespace Easy.Mvc.Resource
 {

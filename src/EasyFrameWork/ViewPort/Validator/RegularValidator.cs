@@ -3,7 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using System.Text.RegularExpressions;
-using Easy.Extend;
 
 namespace Easy.ViewPort.Validator
 {

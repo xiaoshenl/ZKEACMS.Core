@@ -1,14 +1,11 @@
 /* http://www.zkea.net/ Copyright 2016 ZKEASOFT http://www.zkea.net/licenses */
+using Easy.MetaData;
+using Easy.Models;
+using Easy.RepositoryPattern;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
-using Easy.MetaData;
-using Easy.Models;
-using Easy.Modules.User.Models;
-using Easy.Extend;
-using Microsoft.Extensions.DependencyInjection;
-using Easy.RepositoryPattern;
 
 namespace Easy.Modules.Role
 {

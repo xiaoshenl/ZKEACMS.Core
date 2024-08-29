@@ -9,14 +9,12 @@ using Easy.Modules.Role;
 using Easy.Modules.User.Models;
 using Easy.Modules.User.Service;
 using Easy.Mvc;
-using Easy.Mvc.Attribute;
 using Easy.Mvc.Authorize;
 using Easy.Mvc.Controllers;
 using Easy.Mvc.Extend;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using ZKEACMS;
 
 namespace ZKEACMS.Controllers
 {

@@ -2,24 +2,16 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Mvc.Resource.Enums;
-using System;
-using System.IO;
 using Easy.Extend;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Html;
-using Microsoft.AspNetCore.Mvc.Razor;
-using Microsoft.AspNetCore.Mvc.Routing;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
+using Easy.Mvc.Resource.Enums;
 using Easy.Options;
-using System.Collections.Generic;
-using System.Collections.Concurrent;
-using Microsoft.Extensions.Primitives;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Html;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using System.Collections.Concurrent;
+using System.IO;
 
 namespace Easy.Mvc.Resource
 {

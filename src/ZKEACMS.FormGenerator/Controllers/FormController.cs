@@ -2,17 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Mvc.Controllers;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ZKEACMS.FormGenerator.Models;
-using ZKEACMS.FormGenerator.Service;
 using Easy.Extend;
 using Easy.Mvc.Authorize;
+using Easy.Mvc.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
+using ZKEACMS.FormGenerator.Models;
+using ZKEACMS.FormGenerator.Service;
 
 namespace ZKEACMS.FormGenerator.Controllers
 {
@@ -28,7 +24,7 @@ namespace ZKEACMS.FormGenerator.Controllers
             return base.Create();
         }
         [HttpPost, DefaultAuthorize(Policy = PermissionKeys.ManageForm)]
-        public override IActionResult Create([FromBody]Form entity)
+        public override IActionResult Create([FromBody] Form entity)
         {
             if (ModelState.IsValid)
             {
@@ -38,7 +34,7 @@ namespace ZKEACMS.FormGenerator.Controllers
             return Json(new Easy.Mvc.AjaxResult { Status = Easy.Mvc.AjaxStatus.Error, Message = ModelState.CombineErrorMessage() });
         }
         [HttpPost, DefaultAuthorize(Policy = PermissionKeys.ManageForm)]
-        public override IActionResult Edit([FromBody]Form entity)
+        public override IActionResult Edit([FromBody] Form entity)
         {
             if (ModelState.IsValid)
             {

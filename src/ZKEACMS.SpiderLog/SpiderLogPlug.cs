@@ -4,15 +4,13 @@
 
 using Easy.Mvc.Resource;
 using Easy.Mvc.Route;
-using System;
-using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Easy.RepositoryPattern;
-using Easy;
-using ZKEACMS.WidgetTemplate;
-using ZKEACMS.SpiderLog.Service;
+using System;
+using System.Collections.Generic;
 using ZKEACMS.Dashboard;
+using ZKEACMS.SpiderLog.Service;
+using ZKEACMS.WidgetTemplate;
 
 namespace ZKEACMS.SpiderLog
 {
@@ -35,7 +33,7 @@ namespace ZKEACMS.SpiderLog
 
         protected override void InitStyle(Func<string, ResourceHelper> style)
         {
-            
+
         }
 
         public override IEnumerable<PermissionDescriptor> RegistPermission()

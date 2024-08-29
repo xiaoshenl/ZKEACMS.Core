@@ -3,14 +3,9 @@
  * http://www.zkea.net/licenses */
 
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ZKEACMS.Article.Service;
 using ZKEACMS.Api;
 using ZKEACMS.Article.Models;
+using ZKEACMS.Article.Service;
 
 namespace ZKEACMS.Article.ApiControllers
 {

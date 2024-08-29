@@ -3,8 +3,6 @@
  * http://www.zkea.net/licenses */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Easy.Notification
 {

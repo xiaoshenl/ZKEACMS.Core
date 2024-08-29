@@ -15,7 +15,7 @@ namespace Easy.ViewPort.Descriptor
             this.TagType = HTMLEnumerate.HTMLTagTypes.MutiLineTextBox;
             this.TemplateName = "TextArea";
         }
-        
+
 
         public TextAreaDescriptor MaxLength(int max)
         {

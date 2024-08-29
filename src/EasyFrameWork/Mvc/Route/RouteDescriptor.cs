@@ -23,7 +23,7 @@ namespace Easy.Mvc.Route
             this.Template = template;
             this.Defaults = defaults;
         }
-        public RouteDescriptor(string routeName, string template, object defaults,object constraints)
+        public RouteDescriptor(string routeName, string template, object defaults, object constraints)
         {
             this.Priority = 1;
             this.RouteName = RouteName;

@@ -4,13 +4,9 @@
 
 using Easy;
 using Easy.Constant;
-using Easy.Extend;
-using Easy.Notification;
 using Easy.RepositoryPattern;
-using System;
 using ZKEACMS.Event;
 using ZKEACMS.Message.Models;
-using ZKEACMS.Setting;
 
 namespace ZKEACMS.Message.Service
 {

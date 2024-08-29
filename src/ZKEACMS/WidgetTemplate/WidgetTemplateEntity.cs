@@ -2,16 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using Easy.MetaData;
-using Easy.Models;
-using ZKEACMS.Widget;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.Extensions.DependencyInjection;
-using System.Text;
-using System.Linq;
 using Easy;
+using Easy.Models;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Linq;
+using System.Text;
+using ZKEACMS.Widget;
 
 namespace ZKEACMS.WidgetTemplate
 {

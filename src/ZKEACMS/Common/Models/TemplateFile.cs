@@ -4,9 +4,7 @@
 
 using Easy.MetaData;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 using ZKEACMS.Extend;
 
 namespace ZKEACMS.Common.Models

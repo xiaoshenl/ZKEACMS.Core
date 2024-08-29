@@ -2,11 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Routing;
+using System;
+using System.Linq;
 using ZKEACMS.Product.Service;
 using ZKEACMS.Route;
 
@@ -38,7 +36,7 @@ namespace ZKEACMS.Product
                     values.SetProduct(product);
                     path = $"/{string.Join("/", pathArray, 0, pathArray.Length - 1)}";
                 }
-                
+
             }
             return path;
         }

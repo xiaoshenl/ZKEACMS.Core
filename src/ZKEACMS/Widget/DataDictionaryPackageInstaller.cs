@@ -2,10 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Easy.Modules.DataDictionary;
+using Microsoft.AspNetCore.Hosting;
 using System;
 using ZKEACMS.PackageManger;
-using Microsoft.AspNetCore.Hosting;
-using Easy.Modules.DataDictionary;
 
 namespace ZKEACMS.Widget
 {

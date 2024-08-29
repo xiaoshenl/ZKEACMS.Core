@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders.Physical;
 using Microsoft.Extensions.Options;
-using Microsoft.Extensions.Primitives;
 using System;
 using System.IO;
 using System.Threading;

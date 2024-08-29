@@ -6,7 +6,6 @@ using Easy.Constant;
 using Easy.Modules.User.Service;
 using Microsoft.AspNetCore.Mvc;
 using ZKEACMS.Api;
-using Easy.Extend;
 using ZKEACMS.Common.ViewModels;
 
 namespace ZKEACMS.ApiControllers

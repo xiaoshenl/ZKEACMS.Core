@@ -4,11 +4,9 @@
 
 using Easy.Mvc.Authorize;
 using Easy.Mvc.Controllers;
-using Easy.ViewPort.jsTree;
 using Microsoft.AspNetCore.Mvc;
 using ZKEACMS.Product.Models;
 using ZKEACMS.Product.Service;
-using Easy.Extend;
 
 namespace ZKEACMS.Product.Controllers
 {

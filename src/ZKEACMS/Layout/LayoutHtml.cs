@@ -2,14 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Collections.ObjectModel;
-using Easy.MetaData;
 using Easy.Models;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 using Easy.RepositoryPattern;
-using Microsoft.EntityFrameworkCore;
-using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace ZKEACMS.Layout
 {

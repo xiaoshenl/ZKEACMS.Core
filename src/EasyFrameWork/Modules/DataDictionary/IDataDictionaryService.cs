@@ -8,6 +8,6 @@ namespace Easy.Modules.DataDictionary
 {
     public interface IDataDictionaryService : IService<DataDictionaryEntity>
     {
-       
+
     }
 }

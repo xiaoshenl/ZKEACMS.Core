@@ -2,8 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Linq;
-using ZKEACMS.Article.Service;
 using ZKEACMS.Event;
 using ZKEACMS.Page;
 using ZKEACMS.SectionWidget.Service;
@@ -16,8 +14,8 @@ namespace ZKEACMS.SectionWidget.EventHandler
         private readonly ISectionContentCallToActionService _sectionContentCallToActionService;
         private readonly ISectionContentImageService _sectionContentImageService;
 
-        public UpdateLinkOnPageUrlChangedEventHandler(ISectionContentTitleService sectionContentTitleService, 
-            ISectionContentCallToActionService sectionContentCallToActionService, 
+        public UpdateLinkOnPageUrlChangedEventHandler(ISectionContentTitleService sectionContentTitleService,
+            ISectionContentCallToActionService sectionContentCallToActionService,
             ISectionContentImageService sectionContentImageService)
         {
             _sectionContentTitleService = sectionContentTitleService;

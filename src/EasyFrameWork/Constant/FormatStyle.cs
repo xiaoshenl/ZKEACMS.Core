@@ -9,7 +9,7 @@ namespace Easy.Constant
         /// <summary>
         /// 货币
         /// </summary>
-        public const string  Currency= "c";
+        public const string Currency = "c";
         /// <summary>
         /// 十进制 002
         /// </summary>

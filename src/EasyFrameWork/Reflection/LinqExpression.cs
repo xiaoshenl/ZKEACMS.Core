@@ -25,7 +25,7 @@ namespace Easy.Reflection
                 return memberExp.Member.Name;
             }
             return "";
-        }      
-        
+        }
+
     }
 }

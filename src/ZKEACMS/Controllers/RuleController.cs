@@ -2,14 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.LINQ;
-using Easy.Mvc.Attribute;
 using Easy.Mvc.Authorize;
 using Easy.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc;
-using ZKEACMS.Setting;
 using System.Linq;
-using Easy.RepositoryPattern;
 using ZKEACMS.Rule;
 using ZKEACMS.Widget;
 

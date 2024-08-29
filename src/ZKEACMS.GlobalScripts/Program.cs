@@ -8,7 +8,7 @@ namespace ZKEACMS.GlobalScripts
     {
         public static void Main(string[] args)
         {
-            
+
         }
     }
 }

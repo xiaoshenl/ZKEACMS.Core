@@ -2,18 +2,14 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
+using Easy;
+using Easy.Extend;
+using Easy.RepositoryPattern;
 using System.Collections.Generic;
-using Easy.MetaData;
-using ZKEACMS;
+using ZKEACMS.Common.Service;
+using ZKEACMS.Extend;
 using ZKEACMS.MetaData;
 using ZKEACMS.Widget;
-using System.ComponentModel.DataAnnotations.Schema;
-using Easy;
-using ZKEACMS.Common.Service;
-using Easy.Extend;
-using ZKEACMS.Extend;
-using Easy.RepositoryPattern;
 
 namespace ZKEACMS.Common.Models
 {
@@ -55,7 +51,8 @@ namespace ZKEACMS.Common.Models
             {
                 Dictionary<string, string> navigations = new Dictionary<string, string>();
                 navigations.Add("root", "Navigation");
-                ServiceLocator.GetService<INavigationService>().Get().Each(navigation => {
+                ServiceLocator.GetService<INavigationService>().Get().Each(navigation =>
+                {
                     navigations.Add(navigation.ID, navigation.Title);
                 });
                 return navigations;

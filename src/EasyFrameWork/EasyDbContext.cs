@@ -2,7 +2,6 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System.Collections.Generic;
 using Easy.Modules.DataDictionary;
 using Easy.Modules.MutiLanguage;
 using Easy.Modules.Role;

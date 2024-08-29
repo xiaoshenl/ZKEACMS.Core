@@ -2,14 +2,9 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Easy;
-using ZKEACMS.Widget;
 using ZKEACMS.FormGenerator.Models;
-using Microsoft.AspNetCore.Mvc;
+using ZKEACMS.Widget;
 
 namespace ZKEACMS.FormGenerator.Service
 {
@@ -27,7 +22,7 @@ namespace ZKEACMS.FormGenerator.Service
 
         public override object Display(WidgetDisplayContext widgetDisplayContext)
         {
-            if(widgetDisplayContext.FormModel is Form form)
+            if (widgetDisplayContext.FormModel is Form form)
             {
                 return form;
             }

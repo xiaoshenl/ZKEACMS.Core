@@ -2,26 +2,19 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using ZKEACMS.EventAction.Models;
 using Easy;
 using Easy.Cache;
 using Easy.Constant;
-using ZKEACMS.EventAction.ActionExecutor;
-using YamlDotNet.Serialization.NamingConventions;
-using YamlDotNet.Serialization;
-using Microsoft.Extensions.Logging;
 using Easy.Extend;
+using Easy.RepositoryPattern;
 using Easy.Serializer;
-using Fluid;
-using System.Collections.Concurrent;
-using System.Text.RegularExpressions;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using ZKEACMS.EventAction.ActionExecutor;
 
 namespace ZKEACMS.EventAction.Service
 {
@@ -127,7 +120,7 @@ namespace ZKEACMS.EventAction.Service
         {
             return RegexEncoder().Replace(actions, evaluator =>
             {
-                return $":{ evaluator.Groups[1].Value }'{ evaluator.Groups[2].Value + evaluator.Groups[3].Value + evaluator.Groups[4].Value}'";
+                return $":{evaluator.Groups[1].Value}'{evaluator.Groups[2].Value + evaluator.Groups[3].Value + evaluator.Groups[4].Value}'";
             });
         }
 

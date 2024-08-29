@@ -5,12 +5,7 @@
 using Easy.MetaData;
 using Easy.Models;
 using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.Extend;
 
 namespace ZKEACMS.EventAction.Models

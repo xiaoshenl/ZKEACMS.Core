@@ -5,7 +5,6 @@
 using Easy.Cache;
 using Easy.Encrypt;
 using Easy.Extend;
-using Easy.Logging;
 using Easy.MetaData;
 using Easy.Modules.DataDictionary;
 using Easy.Modules.MutiLanguage;
@@ -31,7 +30,6 @@ using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 using System.Text.Encodings.Web;

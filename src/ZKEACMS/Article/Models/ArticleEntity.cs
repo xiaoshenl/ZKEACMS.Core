@@ -2,16 +2,13 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using System;
-using System.Collections.Generic;
 using Easy.Constant;
 using Easy.MetaData;
 using Easy.Models;
-using ZKEACMS.ExtendField;
-using System.ComponentModel.DataAnnotations.Schema;
+using Easy.RepositoryPattern;
+using System;
 using System.ComponentModel.DataAnnotations;
 using ZKEACMS.Extend;
-using Easy.RepositoryPattern;
 
 namespace ZKEACMS.Article.Models
 {

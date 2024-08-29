@@ -6,7 +6,6 @@ using Easy.ViewPort.Descriptor;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Easy.Models;
 
 namespace Easy.MetaData
 {
@@ -14,7 +13,7 @@ namespace Easy.MetaData
     {
         Dictionary<string, BaseDescriptor> ViewPortDescriptors { get; }
         Dictionary<string, PropertyInfo> Properties { get; }
-        
+
         Type TargetType { get; }
     }
 }

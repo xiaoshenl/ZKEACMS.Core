@@ -30,7 +30,7 @@ namespace ZKEACMS.Page
                 _widgetService.RemoveCache(page.ReferencePageID);
                 _zoneService.RemoveCache(page.ReferencePageID);
                 _layoutHtmlService.RemoveCache(page.ReferencePageID);
-            }            
+            }
         }
     }
 }

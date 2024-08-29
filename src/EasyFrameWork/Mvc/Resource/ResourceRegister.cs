@@ -2,16 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.Mvc.RazorPages;
-using Easy.Mvc.Resource.Enums;
-using System;
-using System.IO;
 using Easy.Extend;
-using Microsoft.AspNetCore.Mvc.Razor;
+using Easy.Mvc.Resource.Enums;
 using Microsoft.AspNetCore.Html;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.Razor;
+using System;
 
 namespace Easy.Mvc.Resource
 {

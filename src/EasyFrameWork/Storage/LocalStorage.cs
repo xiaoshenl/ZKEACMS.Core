@@ -3,10 +3,7 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Extend;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Easy.Storage
@@ -67,7 +64,7 @@ namespace Easy.Storage
             string filePath = Path.Combine(MapPath(directory), fileName);
             using (FileStream fileStream = new FileStream(filePath, FileMode.Create))
             {
-               await stream.CopyToAsync(fileStream);
+                await stream.CopyToAsync(fileStream);
             }
             return filePath;
         }

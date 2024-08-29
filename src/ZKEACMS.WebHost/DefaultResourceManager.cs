@@ -156,7 +156,7 @@ namespace ZKEACMS.WebHost
                 .Include($"{LibraryPath}/select2/dist/css/select2.css", $"{LibraryPath}/select2/dist/css/select2.min.css");
 
             style("rule")
-                .Include($"{StylePath}/rule.css", $"{StylePath}/rule.min.css");            
+                .Include($"{StylePath}/rule.css", $"{StylePath}/rule.min.css");
 
             style("captcha")
                 .Include($"{StylePath}/captcha.css", $"{StylePath}/captcha.min.css");

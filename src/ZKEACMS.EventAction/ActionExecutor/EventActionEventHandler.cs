@@ -2,18 +2,10 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
+using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using YamlDotNet.Serialization.NamingConventions;
-using YamlDotNet.Serialization;
-using Easy.Extend;
 using ZKEACMS.Event;
 using ZKEACMS.EventAction.Service;
-using Easy.RuleEngine;
-using Microsoft.Extensions.Logging;
 
 namespace ZKEACMS.EventAction.ActionExecutor
 {
@@ -23,8 +15,8 @@ namespace ZKEACMS.EventAction.ActionExecutor
         private readonly IExecutorManager _executorManager;
         private readonly ILogger<EventActionEventHandler> _logger;
 
-        public EventActionEventHandler(IEventActionService eventActionService, 
-            IExecutorManager executorManager, 
+        public EventActionEventHandler(IEventActionService eventActionService,
+            IExecutorManager executorManager,
             ILogger<EventActionEventHandler> logger)
         {
             _eventActionService = eventActionService;
@@ -52,7 +44,7 @@ namespace ZKEACMS.EventAction.ActionExecutor
                     {
                         executor.Execute(new Arguments(parsedAction.GetRendedWith(entity)), entity, e);
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         _logger.LogError(ex, ex.Message);
                     }

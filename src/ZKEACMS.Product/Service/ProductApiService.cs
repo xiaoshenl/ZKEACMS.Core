@@ -3,14 +3,8 @@
  * http://www.zkea.net/licenses */
 
 using Easy.Constant;
-using Easy.Extend;
 using Easy.Mvc.Authorize;
 using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ZKEACMS.Product.Models;
 using ZKEACMS.Safety;
 

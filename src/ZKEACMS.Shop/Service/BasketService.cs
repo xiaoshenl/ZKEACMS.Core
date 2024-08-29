@@ -2,16 +2,11 @@
  * Copyright (c) ZKEASOFT. All rights reserved. 
  * http://www.zkea.net/licenses */
 
-using Easy.RepositoryPattern;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ZKEACMS.Shop.Models;
-using Microsoft.EntityFrameworkCore;
 using Easy;
-using ZKEACMS.Shop.Filter;
+using Easy.RepositoryPattern;
+using System.Linq;
 using ZKEACMS.Product.Service;
+using ZKEACMS.Shop.Models;
 
 namespace ZKEACMS.Shop.Service
 {
@@ -19,13 +14,13 @@ namespace ZKEACMS.Shop.Service
     {
         private readonly IProductService _productService;
         private readonly IOrderService _orderService;
-        public BasketService(IApplicationContext applicationContext, IProductService productService, IOrderService orderService, CMSDbContext dbContext) 
+        public BasketService(IApplicationContext applicationContext, IProductService productService, IOrderService orderService, CMSDbContext dbContext)
             : base(applicationContext, dbContext)
         {
             _productService = productService;
             _orderService = orderService;
         }
-        
+
         public override IQueryable<Basket> Get()
         {
             if (ApplicationContext.CurrentCustomer != null)
@@ -100,7 +95,7 @@ namespace ZKEACMS.Shop.Service
                 order.UserId = ApplicationContext.CurrentCustomer.UserID;
                 order.Total = baskets.Sum(m => m.Price * m.Quantity);
                 order.OrderItems = baskets.Select(m => m.ToOrderItem()).ToList();
-                _orderService.Add(order);                
+                _orderService.Add(order);
                 RemoveRange(baskets.ToArray());
             }
             return order;
